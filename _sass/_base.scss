@@ -26,8 +26,8 @@ $caption_color: #aaa;
 /* COLORS  */
 $red:  #FF3636;
 $orange: #F29105;
-$blue: #2698BA;
-$green: #11D68B;
+$blue: #001aff;
+$green: #00ff00;
 $lime_green: #B7D12A;
 $purple: #B509AC;
 $black: #030303;
@@ -36,7 +36,7 @@ $black: #030303;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     rgb(96, 97, 102);
+$text-color:     #0f0f11;
 $title-color:     #0f0f11;
 
 /* Set theme color *************************/
@@ -135,17 +135,21 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
-        text-decoration: none;
+        color: $green;
+        // text-decoration: solid underline $green 2px;
     }
 }
 
 article a {
-    color: $theme-color;
-    font-weight: 100;
+    color: $title-color;
+    font-weight: 400;
+    text-decoration: solid underline $green 2px;
+    text-underline-position: under;
 
     &:hover {
-        text-decoration: none;
+        color: $green;
+        text-decoration: solid underline $green 2px;
+        text-underline-position: under;
     }
 }
 
