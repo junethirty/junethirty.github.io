@@ -1,0 +1,39 @@
+---
+layout: post
+title: CSS에서 영문, 한글 섞어쓰기
+date: 2015-07-15 15:09:00
+description: an example of a blog post with some code
+---
+"한글은 노토산스로, 영문과 숫자, 기호는 몬세라트를 써주세요!"
+
+유료 서체가 아닌 경우에 쓸만한 국영문 혼용 서체의 선택지는 많지 않다. 보통 노토산스나 노토산스를 기반으로 만든 스포카산스를 주로 사용하는데, Open Font License를 가진 대부분의 서체들은 영문 등 하나의 언어만을 지원하는 경우가 많기 때문에, 서체로 아이덴티티를 보여주어야 하거나 특별한 서체를 사용하고 싶은 많은 경우에 영문과 한글 서체 섞어쓰기가 필요하다. 
+
+<br/>
+<hr>
+<br/>
+
+
+
+###### 1 unicode-range 사용  
+
+unicode-range로 서체에서 사용되는 유니 코드의 범위를 설정할 수 있다. @font-face에 unicode-range로 범위를 설정한다.
+unicode-range에서 설정한 유니코드 범위에만 해당 서체가 적용된다.
+
+{% highlight c++ %}  
+@font-face {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    /* 영문 대문자, 영문 소문자, 숫자에만 적용하는 unicode-range */
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
+{% endhighlight %}
+<br/>
+
+###### 2 유니코드 범위
+
+영문 범위 (대문자) : U+0041-005A  
+영문 범위 (소문자) : U+0061-007A  
+한글 : U+AC00-D7AF  
+숫자 : U+0030-0039

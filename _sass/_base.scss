@@ -8,13 +8,72 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+// fonts english
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-SemiBold_1.woff2') format('woff2'),
+        url('/fonts/Montserrat-SemiBold_1.woff') format('woff'),
+        url('/fonts/Montserrat-SemiBold_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular_1.woff2') format('woff2'),
+        url('/fonts/Montserrat-Regular_1.woff') format('woff'),
+        url('/fonts/Montserrat-Regular_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Light_1.woff2') format('woff2'),
+        url('/fonts/Montserrat-Light_1.woff') format('woff'),
+        url('/fonts/Montserrat-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
+// fonts korean
+@font-face {
+    font-family: 'Arita';
+    src: url('/fonts/Arita-dotum-Light_OTF00_1.woff2') format('woff2'),
+        url('/fonts/Arita-dotum-Light_OTF00_1.woff') format('woff'),
+        url('/fonts/Arita-dotum-Light_OTF00_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+AC00-D7AF;
+}
+@font-face {
+    font-family: 'Arita';
+    src: url('/fonts/Arita-dotum-Medium_OTF00_1.woff2') format('woff2'),
+        url('/fonts/Arita-dotum-Medium_OTF00_1.woff') format('woff'),
+        url('/fonts/Arita-dotum-Medium_OTF00_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+AC00-D7AF;
+}
+@font-face {
+    font-family: 'Arita';
+    src: url('/fonts/Arita-dotum-SemiBold_OTF00_1.woff2') format('woff2'),
+        url('/fonts/Arita-dotum-SemiBold_OTF00_1.woff') format('woff'),
+        url('/fonts/Arita-dotum-SemiBold_OTF00_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+AC00-D7AF;
+}
 
 /** Variables **********************************************/
-$base-font-family:              'Montserrat', sans-serif;
-$base-line-height:              1.5em;
+$base-font-family:              'Montserrat', 'Arita', sans-serif;
+$base-line-height:              1.7em;
 $horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
+$vertical-spacing-unit:         25px;
 $nav-height:                    56px;
 
 /* portfolio tinkering */
@@ -52,7 +111,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 400;
+    font-weight: 500;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -83,6 +142,9 @@ hr{
 
 }
 
+br{
+    line-height: 130%;
+}
 
 /**
  * Figures
@@ -116,12 +178,16 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     color: $title-color;
 }
-
+h5, h6 {
+    font-family: $base-font-family;
+    font-weight: 600;
+    color: $title-color;
+}
 
 /**
  * Links

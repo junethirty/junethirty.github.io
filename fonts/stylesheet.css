@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-SemiBold.woff2') format('woff2'),
+        url('Montserrat-SemiBold.woff') format('woff'),
+        url('Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-Light_OTF00.woff2') format('woff2'),
+        url('Arita-dotum-Light_OTF00.woff') format('woff'),
+        url('Arita-dotum-Light_OTF00.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-SemiBold_OTF00.woff2') format('woff2'),
+        url('Arita-dotum-SemiBold_OTF00.woff') format('woff'),
+        url('Arita-dotum-SemiBold_OTF00.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-Medium_OTF00.woff2') format('woff2'),
+        url('Arita-dotum-Medium_OTF00.woff') format('woff'),
+        url('Arita-dotum-Medium_OTF00.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff'),
+        url('Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-Light_OTF00_1.woff2') format('woff2'),
+        url('Arita-dotum-Light_OTF00_1.woff') format('woff'),
+        url('Arita-dotum-Light_OTF00_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-Medium_OTF00_1.woff2') format('woff2'),
+        url('Arita-dotum-Medium_OTF00_1.woff') format('woff'),
+        url('Arita-dotum-Medium_OTF00_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('Arita-dotum-SemiBold_OTF00_1.woff2') format('woff2'),
+        url('Arita-dotum-SemiBold_OTF00_1.woff') format('woff'),
+        url('Arita-dotum-SemiBold_OTF00_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-SemiBold_1.woff2') format('woff2'),
+        url('Montserrat-SemiBold_1.woff') format('woff'),
+        url('Montserrat-SemiBold_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular_1.woff2') format('woff2'),
+        url('Montserrat-Regular_1.woff') format('woff'),
+        url('Montserrat-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light_1.woff2') format('woff2'),
+        url('Montserrat-Light_1.woff') format('woff'),
+        url('Montserrat-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
