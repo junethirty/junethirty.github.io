@@ -165,6 +165,12 @@ font-size: 20px;
 font-size: 18px;
         }
     }
+h5 {
+    font-size: 16px;
+    @include media-query($on-laptop) {
+    font-size: 16px;
+            }
+        }
 }
 .post-meta {
 font-size: $small-font-size;

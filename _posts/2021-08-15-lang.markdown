@@ -14,7 +14,7 @@ description: an example of a blog post with some code
 
 
 
-#### 1 unicode-range 사용  
+##### 1 unicode-range 사용  
 
 unicode-range로 서체에서 사용되는 유니 코드의 범위를 설정할 수 있다. @font-face에 unicode-range로 범위를 설정한다.
 unicode-range에서 설정한 유니코드 범위에만 해당 서체가 적용된다.
