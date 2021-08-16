@@ -205,7 +205,7 @@ a {
 article a {
     color: $title-color;
     font-weight: 400;
-    text-decoration: solid underline $green 2px;
+    text-decoration: solid underline $green 1px;
     text-underline-position: under;
 
     &:hover {
@@ -241,7 +241,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $grey-color-light;
+    background-color: #272822;
 }
 
 code {
