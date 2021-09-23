@@ -301,6 +301,9 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+  &::-webkit-scrollbar { 
+    display: none !important; // 윈도우 크롬 등
+  }
 
     > code {
         border: 0;

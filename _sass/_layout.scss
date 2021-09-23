@@ -29,6 +29,7 @@ color: $theme-color;
 .site-nav {
 line-height: $nav-height;
 
+
 .page-link{
 line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
@@ -168,6 +169,7 @@ font-size: 22px;
     }
 h4 {
 font-size: 18px;
+margin-top: 18px;
 margin-bottom: 6px;
 @include media-query($on-laptop) {
 font-size: 18px;
