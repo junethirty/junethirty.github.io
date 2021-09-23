@@ -10,29 +10,29 @@ dl, dd, ol, ul, figure {
 
 // fonts english
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat-SemiBold_1.woff2') format('woff2'),
-        url('/fonts/Montserrat-SemiBold_1.woff') format('woff'),
-        url('/fonts/Montserrat-SemiBold_1.ttf') format('truetype');
-    font-weight: 600;
+    font-family: 'AvenirLTStd';
+    src: url('/fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
+        url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
+        url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat-Regular_1.woff2') format('woff2'),
-        url('/fonts/Montserrat-Regular_1.woff') format('woff'),
-        url('/fonts/Montserrat-Regular_1.ttf') format('truetype');
+    font-family: 'AvenirLTStd';
+    src: url('/fonts/AvenirLTStd-Medium.woff2') format('woff2'),
+        url('/fonts/AvenirLTStd-Medium.woff') format('woff'),
+        url('/fonts/AvenirLTStd-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat-Light_1.woff2') format('woff2'),
-        url('/fonts/Montserrat-Light_1.woff') format('woff'),
-        url('/fonts/Montserrat-Light_1.ttf') format('truetype');
-    font-weight: 300;
+    font-family: 'AvenirLTStd';
+    src: url('/fonts/AvenirLTStd-Book.woff2') format('woff2'),
+        url('/fonts/AvenirLTStd-Book.woff') format('woff'),
+        url('/fonts/AvenirLTStd-Book.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -40,19 +40,19 @@ dl, dd, ol, ul, figure {
 // fonts korean
 @font-face {
     font-family: 'Arita';
-    src: url('/fonts/Arita-dotum-Light_OTF00_1.woff2') format('woff2'),
-        url('/fonts/Arita-dotum-Light_OTF00_1.woff') format('woff'),
-        url('/fonts/Arita-dotum-Light_OTF00_1.ttf') format('truetype');
-    font-weight: 300;
+    src: url('/fonts/NotoSansKR_Regular.woff2') format('woff2'),
+        url('/fonts/NotoSansKR_Regular.woff') format('woff'),
+        url('/fonts/NotoSansKR_Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
 @font-face {
     font-family: 'Arita';
-    src: url('/fonts/Arita-dotum-Medium_OTF00_1.woff2') format('woff2'),
-        url('/fonts/Arita-dotum-Medium_OTF00_1.woff') format('woff'),
-        url('/fonts/Arita-dotum-Medium_OTF00_1.ttf') format('truetype');
+    src: url('/fonts/NotoSansKR_Medium.woff2') format('woff2'),
+        url('/fonts/NotoSansKR_Medium.woff') format('woff'),
+        url('/fonts/NotoSansKR_Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -60,17 +60,17 @@ dl, dd, ol, ul, figure {
 }
 @font-face {
     font-family: 'Arita';
-    src: url('/fonts/Arita-dotum-SemiBold_OTF00_1.woff2') format('woff2'),
-        url('/fonts/Arita-dotum-SemiBold_OTF00_1.woff') format('woff'),
-        url('/fonts/Arita-dotum-SemiBold_OTF00_1.ttf') format('truetype');
-    font-weight: 600;
+    src: url('/fonts/NotoSansKR_Bold.woff2') format('woff2'),
+        url('/fonts/NotoSansKR_Bold.woff') format('woff'),
+        url('/fonts/NotoSansKR_Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
 
 /** Variables **********************************************/
-$base-font-family:              'Montserrat', 'Arita', sans-serif;
+$base-font-family:              'AvenirLTStd', 'Arita', sans-serif;
 $base-line-height:              1.7em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         25px;
