@@ -3,16 +3,17 @@
  * Site header   **********************************************************
  */
 .site-header {
-border-bottom: 1px solid $grey-color-light;
+border-bottom: 1px solid $grey-color-10;
 background-color: #fff;
 opacity: 0.75;
-position:fixed;
+position: fixed;
 left:0px;
 top:0px;
 height:56px;
 width:100%;
 z-index: 50;
 }
+
 
 .site-title {
 font-size: 20px;
@@ -24,14 +25,15 @@ text-decoration: none;
 color: $theme-color;
     }
 }
+
 .site-nav {
-float: right;
 line-height: $nav-height;
+
 .page-link{
 line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
 &:not(:first-child) {
-margin-left: 10px;
+margin-left: 20px;
         }
     }
 @include media-query($on-palm) {
@@ -59,16 +61,16 @@ display: line;
     width: 100%;
     text-align: center;
     padding-top: 60px;
-    line-height: 4em;
+    line-height: 3em;
     z-index: 25;
     h1{
         color: $title-color;
-        font-size:75px;
+        font-size:64px;
     }
     h2{
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 300;
         color: $text-color;
     }
 }
@@ -77,9 +79,9 @@ display: line;
  * Site footer  **********************************************************
  */
 .site-footer {
-border-top: 1px solid $grey-color-dark;
+border-top: 1px solid $grey-color-40;
 font-size: 10px;
-background-color: $grey-color-dark;
+background-color: $grey-color-40;
 padding: 2px;
 color: #aaa;
 position:fixed;
@@ -112,7 +114,7 @@ color: $theme-color;
  * Page content   **********************************************************
  */
 .page-content {
-padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+padding: 120px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
 font-size: 20px;
@@ -136,45 +138,52 @@ text-align: center;
  * Posts  **********************************************************
  */
 .post-header {
-margin-bottom: $vertical-spacing-unit;
+margin-bottom: $vertical-spacing-unit*1.5;
 }
 .post-title {
-font-size: 42px;
+font-size: 32px;
+font-weight : 700;
 letter-spacing: -1px;
 line-height: 1.6;
+margin-bottom: 12px;
 @include media-query($on-laptop) {
-font-size: 36px;
+font-size: 32px;
+margin-bottom: 12px;
     }
 }
 .post-content {
 h2 {
-font-size: 42px;
+font-size: 26px;
+margin-bottom: 7px;
 @include media-query($on-laptop) {
 font-size: 28px;
         }
     }
 h3 {
-font-size: 30px;
+font-size: 22px;
+margin-bottom: 20px;
 @include media-query($on-laptop) {
 font-size: 22px;
         }
     }
 h4 {
-font-size: 20px;
+font-size: 18px;
+margin-bottom: 6px;
 @include media-query($on-laptop) {
 font-size: 18px;
         }
     }
 h5 {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 6px;
     @include media-query($on-laptop) {
     font-size: 18px;
             }
         }
 }
 .post-meta {
-font-size: $small-font-size;
-color: $grey-color;
+font-size: 12px;
+color: $grey-color-20;
 margin-bottom: 0px; 
 }
 .post-link {
@@ -240,7 +249,7 @@ left: 0;
 bottom: 0;
 right: 0;
 background: rgba(0,0,0,0.4);
-color: $grey-color-light;
+color: $grey-color-10;
 padding: 40px;
 text-align: center;
 }

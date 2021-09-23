@@ -10,7 +10,7 @@ dl, dd, ol, ul, figure {
 
 // fonts english
 @font-face {
-    font-family: 'AvenirLTStd';
+    font-family: 'Avenir';
     src: url('/fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
         url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
         url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
     font-display: swap;
 }
 @font-face {
-    font-family: 'AvenirLTStd';
+    font-family: 'Avenir';
     src: url('/fonts/AvenirLTStd-Medium.woff2') format('woff2'),
         url('/fonts/AvenirLTStd-Medium.woff') format('woff'),
         url('/fonts/AvenirLTStd-Medium.ttf') format('truetype');
@@ -28,7 +28,7 @@ dl, dd, ol, ul, figure {
     font-display: swap;
 }
 @font-face {
-    font-family: 'AvenirLTStd';
+    font-family: 'Avenir';
     src: url('/fonts/AvenirLTStd-Book.woff2') format('woff2'),
         url('/fonts/AvenirLTStd-Book.woff') format('woff'),
         url('/fonts/AvenirLTStd-Book.ttf') format('truetype');
@@ -37,43 +37,90 @@ dl, dd, ol, ul, figure {
     font-display: swap;
 }
 
+//josefin sans
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('/fonts/JosefinSans-Regular.woff') format('woff'),
+        url('/fonts/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans-Medium.woff2') format('woff2'),
+        url('/fonts/JosefinSans-Medium.woff') format('woff'),
+        url('/fonts/JosefinSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+        url('/fonts/JosefinSans-SemiBold.woff') format('woff'),
+        url('/fonts/JosefinSans-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans-Bold.woff2') format('woff2'),
+        url('/fonts/JosefinSans-Bold.woff') format('woff'),
+        url('/fonts/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
 // fonts korean
 @font-face {
-    font-family: 'Arita';
-    src: url('/fonts/NotoSansKR_Regular.woff2') format('woff2'),
-        url('/fonts/NotoSansKR_Regular.woff') format('woff'),
-        url('/fonts/NotoSansKR_Regular.ttf') format('truetype');
+    font-family: 'NotoSansKR';
+    src: url('/fonts/NotoSansKR-Regular-Alphabetic.woff2') format('woff2'),
+        url('/fonts/NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+        url('/fonts/NotoSansKR-Regular-Alphabetic.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
 @font-face {
-    font-family: 'Arita';
-    src: url('/fonts/NotoSansKR_Medium.woff2') format('woff2'),
-        url('/fonts/NotoSansKR_Medium.woff') format('woff'),
-        url('/fonts/NotoSansKR_Medium.ttf') format('truetype');
+    font-family: 'NotoSansKR';
+    src: url('/fonts/NotoSansKR-Medium-Alphabetic.woff2') format('woff2'),
+        url('/fonts/NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+        url('/fonts/NotoSansKR-Medium-Alphabetic.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
 @font-face {
-    font-family: 'Arita';
-    src: url('/fonts/NotoSansKR_Bold.woff2') format('woff2'),
-        url('/fonts/NotoSansKR_Bold.woff') format('woff'),
-        url('/fonts/NotoSansKR_Bold.ttf') format('truetype');
+    font-family: 'NotoSansKR';
+    src: url('/fonts/NotoSansKR-Bold-Alphabetic.woff2') format('woff2'),
+        url('/fonts/NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+        url('/fonts/NotoSansKR-Bold-Alphabetic.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
 
+@font-face {
+    font-family: 'SourceCodePro';
+    src:         url('/fonts/SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /** Variables **********************************************/
-$base-font-family:              'AvenirLTStd', 'Arita', sans-serif;
+$base-font-family:              'Avenir', 'NotoSansKR', sans-serif;
 $base-line-height:              1.7em;
 $horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         25px;
+$vertical-spacing-unit:         24px;
 $nav-height:                    56px;
 
 /* portfolio tinkering */
@@ -84,22 +131,23 @@ $caption_color: #aaa;
 
 /* COLORS  */
 $red:  #FF3636;
-$orange: #F29105;
+$orange: #f28705;
 $blue: #001aff;
 $green: #00ff00;
-$lime_green: #B7D12A;
+$lime_green: #8ed51c;
 $purple: #B509AC;
 $black: #030303;
 
 
 
-$grey-color-dark: #333;   /* footer */
-$grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #0f0f11;
-$title-color:     #0f0f11;
+$grey-color-40: #a0a0a0;   /* footer, 상단 menu */
+$grey-color-20: #B5b5b5;
+$grey-color-10: #ddd;  /* navigation bar border */
+$text-color:     #555555;
+$title-color:     #3c3c3c;
 
 /* Set theme color *************************/
-$theme-color:   $text-color;
+$theme-color:   #3C91E6;
 
 
 /************************************************************/
@@ -111,7 +159,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 500;
+    font-weight: 400;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -175,7 +223,7 @@ li {
  * Headings
  */
 h1, h2, h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "JosefinSans", sans-serif;
     font-weight: 600;
     color: $title-color;
 }
@@ -197,24 +245,25 @@ a {
     }
     */
     &:hover {
-        color: $green;
-        // text-decoration: solid underline $green 2px;
+        color: #030303;
+        // text-decoration: solid underline $theme-color 1px;
     }
+    
+
 }
 
 article a {
     color: $title-color;
     font-weight: 400;
-    text-decoration: solid underline $green 1px;
+    text-decoration: solid underline $theme-color 1px;
     text-underline-position: under;
 
     &:hover {
-        color: $green;
-        text-decoration: solid underline $green 2px;
+        color: $theme-color;
+        text-decoration: solid underline $theme-color 1px;
         text-underline-position: under;
     }
 }
-
 
 
 /**
@@ -222,7 +271,7 @@ article a {
  */
 blockquote {
     color: $text-color;
-    border-left: 10px solid $grey-color-light;
+    border-left: 10px solid $grey-color-10;
     padding-left: $horizontal-spacing-unit / 2;
     font-size: 18px;
     font-style: italic;
@@ -239,7 +288,8 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-family: "SourceCodePro", monospace;
+    font-size: 14px;
     border-radius: 3px;
     background-color: #272822;
 }
@@ -266,8 +316,8 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(1100px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(1100px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -275,13 +325,30 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+        max-width: -webkit-calc(1100px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(1100px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
 }
 
+
+.post_wrapper {
+    max-width: -webkit-calc(940px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(940px - (#{$horizontal-spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $horizontal-spacing-unit;
+    padding-left: $horizontal-spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(940px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(940px - (#{$horizontal-spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
 
 /**
  * Clearfix
