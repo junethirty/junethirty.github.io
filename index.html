@@ -3,21 +3,21 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>Jongyoon Jang</h1>
-  <h2>개인 블로그</h2>
+  <h1>Blog</h1>
+  <h2>배운 것들을 하나씩 씁니다</h2>
   <br/>
-  <hr>
 </div>
 
 
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <br/>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
+        <div class="post-item"><a href="{{ post.url | prepend: site.baseurl }}">
+             <h2> {{ post.title }}</h2>
+            <p class="post-description">{{ post.description }}</p>
+           <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+          </a>
+        </div>
         <hr/>
       </li>
     {% endfor %}

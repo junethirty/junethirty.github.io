@@ -1,7 +1,8 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: Home
+permalink: /home/
+description: Brand, Product 
 ---
 
 <img class="col one right" src="/img/profile_pic.png">

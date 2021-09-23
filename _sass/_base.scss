@@ -139,12 +139,15 @@ $purple: #B509AC;
 $black: #030303;
 
 
-
+$grey-color-90: #030303;
+$grey-color-70: #3c3c3c;
+$grey-color-60: #555555;
+$grey-color-50: #727272;
 $grey-color-40: #a0a0a0;   /* footer, 상단 menu */
 $grey-color-20: #B5b5b5;
 $grey-color-10: #ddd;  /* navigation bar border */
-$text-color:     #555555;
-$title-color:     #3c3c3c;
+$text-color:     $grey-color-60;
+$title-color:     $grey-color-70;
 
 /* Set theme color *************************/
 $theme-color:   #3C91E6;
@@ -157,7 +160,7 @@ $theme-color:   #3C91E6;
  */
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-size: 16px;
     line-height: $base-line-height;
     font-weight: 400;
     color: $text-color;
@@ -237,6 +240,7 @@ h4, h5, h6 {
  * Links
  */
 a {
+    transition: all 0.3s ease-in-out;
     color: $title-color;
     text-decoration: none;
     /*
@@ -245,16 +249,13 @@ a {
     }
     */
     &:hover {
-        color: #030303;
+        color: $grey-color-90;
         // text-decoration: solid underline $theme-color 1px;
     }
-    
-
 }
 
 article a {
-    color: $title-color;
-    font-weight: 400;
+    color: $text-color;
     text-decoration: solid underline $theme-color 1px;
     text-underline-position: under;
 
@@ -265,6 +266,16 @@ article a {
     }
 }
 
+.site-nav a {
+    color: $grey-color-60;
+    &:hover {
+        color: $grey-color-90;
+    }
+    &:active {
+        color: $grey-color-90;
+    }
+    
+}
 
 /**
  * Blockquotes
@@ -290,6 +301,7 @@ pre,
 code {
     font-family: "SourceCodePro", monospace;
     font-size: 14px;
+    line-height: 1.5em;
     border-radius: 3px;
     background-color: #272822;
 }
@@ -301,6 +313,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    -ms-overflow-style: none; // IE에서 스크롤바 감춤
   &::-webkit-scrollbar { 
     display: none !important; // 윈도우 크롬 등
   }
@@ -319,8 +332,8 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(1100px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(1100px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(976px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(976px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -328,8 +341,8 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(1100px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(1100px - (#{$horizontal-spacing-unit}));
+        max-width: -webkit-calc(940px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(940px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -350,6 +363,32 @@ pre {
         max-width:         calc(940px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+}
+
+/**
+ * post-list
+ */
+
+.post-list {
+    .post-description { 
+        color: $text-color;
+        font-weight: 400;
+    }
+}
+
+.post-meta {
+    color: $grey-color-20;
+}
+
+.post-item:hover {
+    h2 {
+        transition: all 0.3s ease-in-out;
+        color: darken($color: $grey-color-90, $amount: 100);
+    }
+    .post-description {
+        transition: all 0.3s ease-in-out;
+        color: darken($color: $grey-color-60, $amount: 50);
     }
 }
 

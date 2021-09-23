@@ -1,6 +1,6 @@
 ---
 layout: page
-title: photoportfolio
+title: Photoportfolio
 permalink: /photoportfolio/
 ---
 
