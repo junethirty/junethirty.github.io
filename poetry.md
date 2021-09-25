@@ -1,9 +1,15 @@
 ---
 layout: page
 permalink: /writing/
-title: Writing
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+title: 
+description: 
 ---
+
+<div class="header-bar">
+  <h1>Writing</h1>
+  <h2 class="title-description">글쓰기와 기록</h2>
+  <br/>
+</div>
 
 <ul class="post-list">
 {% for poem in site.poetry reversed %}

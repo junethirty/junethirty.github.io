@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Photoportfolio
+title: 
 permalink: /photoportfolio/
 ---
 
+<div class="header-bar">
+  <h1>Photoportfolio</h1>
+  <h2 class="title-description"></h2>
+</div>
 
 {% for image in site.static_files %}
 <!--

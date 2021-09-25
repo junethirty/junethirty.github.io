@@ -1,13 +1,20 @@
 ---
 layout: page
-title: Home
+title: 
 permalink: /home/
-description: Brand, Product 
+description: 
 ---
+
+<div class="header-bar">
+  <h1>I'm Jongyoon Jang<br/>a visual designer.</h1>
+  <h2 class="home-description">안녕하세요, 디자이너 장종윤입니다.</h2>
+  <br/>
+</div>
 
 <img class="col one right" src="/img/profile_pic.png">
 
 <br/>
+Biography
 Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
 
 Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
