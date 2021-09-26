@@ -64,7 +64,7 @@ line-height: $nav-height;
 
     //home(about)
     .home-description {
-        font-family: "Avenir", "NotoSansKr", sans-serif;
+        font-family: $base-font-family;
         font-size: 28px;
         font-weight: 400;
         color: $title-color;
@@ -72,7 +72,7 @@ line-height: $nav-height;
     }
 
     .title-description {
-        font-family: "Avenir", "NotoSansKr", sans-serif;
+        font-family: $base-font-family;
         font-size: 20px;
         font-weight: 400;
         color: $grey-color-50;
@@ -115,7 +115,7 @@ width:100%;
         font-weight: 800;
     }
     h2{
-        font-family: "Avenir", "NotoSansKr", sans-serif;
+        font-family: $base-font-family;
         font-size: 20px;
         font-weight: 400;
         color: $grey-color-50;
@@ -221,6 +221,14 @@ h5 {
     font-size: 18px;
             }
         }
+figure {
+    margin-bottom: 0px;
+    }   
+
+pre {
+    margin-bottom: 20px;
+    margin-top: -10px;
+    }
 }
 .post-meta {
 font-size: 12px;

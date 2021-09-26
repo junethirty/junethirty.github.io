@@ -85,6 +85,7 @@ dl, dd, ol, ul, figure {
     font-style: normal;
     font-display: swap;
     unicode-range: U+AC00-D7AF;
+
 }
 @font-face {
     font-family: 'NotoSansKR';
@@ -96,6 +97,7 @@ dl, dd, ol, ul, figure {
     font-display: swap;
     unicode-range: U+AC00-D7AF;
 }
+
 @font-face {
     font-family: 'NotoSansKR';
     src: url('/fonts/NotoSansKR-Bold-Alphabetic.woff2') format('woff2'),
@@ -118,6 +120,7 @@ dl, dd, ol, ul, figure {
 
 /** Variables **********************************************/
 $base-font-family:              'Avenir', 'NotoSansKR', sans-serif;
+$title-font-family:             'JosefinSans', 'NotoSansKR', sans-serif;
 $base-line-height:              1.7em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         24px;
@@ -167,6 +170,7 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    
 }
 
 
@@ -174,10 +178,21 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-p, blockquote, pre,
-ul, ol, dl, figure,
+blockquote, p,
+ul, ol, dl,
 %vertical-rhythm {
     margin-bottom: $vertical-spacing-unit / 2;
+}
+
+
+
+figure {
+    margin-bottom: 0px;
+}
+
+pre {
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 .alignright {
@@ -227,7 +242,7 @@ li {
  * Headings
  */
 h1, h2, h3 {
-    font-family: "JosefinSans", sans-serif;
+    font-family: $title-font-family;
     font-weight: 600;
     color: $title-color;
 }
