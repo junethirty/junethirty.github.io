@@ -4,6 +4,8 @@ title: CSS, SCSS, SASS
 date: 2021-07-18
 description: 개념, Syntax 예시
 ---
+<br/>
+
 ### 개념 
 CSS : Cascading Style Sheets  
 SCSS : Sassy CSS  
@@ -16,7 +18,8 @@ SCSS와 <a href="https://sass-lang.com/" target="blank">SASS</a>는 CSS를 보�
 <br/>
 
 ### Syntax 예시
-#### CSS
+CSS
+
 {% highlight css %}
 nav {
  color : blue;
@@ -30,7 +33,8 @@ nav li {
 }
 {% endhighlight %}
 
-#### SCSS
+SCSS  
+
 {% highlight scss %}
 nav {
  ul {
@@ -43,7 +47,7 @@ nav {
 }
 {% endhighlight %}
 
-#### SASS
+SASS 
 {% highlight sass %}
 nav 
  ul 

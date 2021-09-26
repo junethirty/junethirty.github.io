@@ -178,7 +178,7 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-blockquote, p,
+blockquote, p,figure, pre,
 ul, ol, dl,
 %vertical-rhythm {
     margin-bottom: $vertical-spacing-unit / 2;
@@ -186,14 +186,7 @@ ul, ol, dl,
 
 
 
-figure {
-    margin-bottom: 0px;
-}
 
-pre {
-    margin-bottom: 20px;
-    margin-top: -10px;
-}
 
 .alignright {
     float: right;
@@ -318,7 +311,7 @@ pre,
 code {
     font-family: "SourceCodePro", monospace;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     border-radius: 3px;
     background-color: #272822;
 }

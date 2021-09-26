@@ -138,6 +138,7 @@ a {
 color: $theme-color;
     }
 }
+
 /**
  * Page content   **********************************************************
  */
@@ -183,12 +184,13 @@ margin-bottom: $vertical-spacing-unit*1.5;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1.6;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
     @include media-query($on-laptop) {
     font-size: 32px;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
         }
 }
+
 
 .post-content {
     
@@ -208,15 +210,15 @@ font-size: 22px;
     }
 h4 {
 font-size: 18px;
-margin-top: 18px;
-margin-bottom: 6px;
+margin-top: 28px;
+margin-bottom: 12px;
 @include media-query($on-laptop) {
 font-size: 18px;
         }
     }
 h5 {
     font-size: 16px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     @include media-query($on-laptop) {
     font-size: 18px;
             }
