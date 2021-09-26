@@ -154,7 +154,7 @@ $text-color:     $grey-color-60;
 $title-color:     $grey-color-80;
 
 /* Set theme color *************************/
-$theme-color:   #3C91E6;
+$theme-color:   rgb(60, 145, 230);
 
 
 /************************************************************/
@@ -244,6 +244,14 @@ h4, h5, h6 {
     font-weight: 600;
     color: $title-color;
 }
+
+/**
+ * Selection
+ */
+ ::selection {
+     background-color: rgb(240, 240, 240);
+     color: darken($theme-color, 10%);
+ }
 
 /**
  * Links
