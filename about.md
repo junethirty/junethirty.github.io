@@ -1,37 +1,28 @@
 ---
-layout: page
+layout: default
 title: 
-permalink: /home/
+permalink: /blog/
 description: 
 ---
 
+
+
 <div class="header-bar">
-  <h1>I'm Jongyoon Jang<br/>a visual designer.</h1>
-  <h2 class="home-description">안녕하세요, 디자이너 장종윤입니다.</h2>
+  <h1>Blog</h1>
+  <h2 class="title-description">배운 것들을 하나씩 씁니다</h2>
   <br/>
 </div>
 
-<img class="col one right" src="/img/profile_pic.png">
 
-<br/>
-Biography
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
-
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
-
-
-<br/>
-<hr/>
-<br/>
-<span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
-</span>
-
-<div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
-</div>
-
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <div class="post-item">
+             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="post-description"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.description }}</a></p>
+           <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        </div>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
