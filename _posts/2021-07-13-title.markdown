@@ -7,7 +7,7 @@ description: 개발 환경 구축(설치), 블로그 생성, 커스터마이징
 <br/>
 
 ### Jekyll이란?
-이 블로그는 Jekyll을 사용해 구축했고, 호스팅 플랫폼으로 Github을 사용했다. Jekyll은 Github Pages와 연동되는 site generator 중 하나이다. Jekyll은 Ruby라는 언어를 기반으로 하며, 마크다운 방식으로 글쓰기가 가능하다. 자유롭게 커스터마이징이 가능하며, 마음에 드는 Jekyll theme을 골라 사용할 수도 있다. 이 블로그는 Theme을 Fork하여, 필요한 기능을 추가하고 변경하면서 커스터마이징하였다. 
+이 블로그는 <a href="https://jekyllrb.com/" target="blank">Jekyll</a>을 사용해 구축했고, 호스팅 플랫폼으로 Github을 사용했다. <a href="https://jekyllrb.com/" target="blank">Jekyll</a>은 Github Pages와 연동되는 site generator 중 하나이다. Jekyll은 Ruby라는 언어를 기반으로 하며, 마크다운 방식으로 글쓰기가 가능하다. 자유롭게 커스터마이징이 가능하며, 마음에 드는 Jekyll theme을 골라 사용할 수도 있다. 이 블로그는 Theme을 Fork하여, 필요한 기능을 추가하고 변경하면서 커스터마이징하였다. 
 
 #### Jekyll 설치를 위해 필요한 것들
 <ul>
@@ -16,6 +16,7 @@ description: 개발 환경 구축(설치), 블로그 생성, 커스터마이징
 	<li>Ruby version 2.5.0 or higher</li>
 </ul>
 
+<br/>
 <br/>
 
 ### Homebrew, Ruby, Jekyll 설치하기
@@ -63,6 +64,7 @@ $ gem install jekyll bundler
 $ jekyll -v
 {% endhighlight %}
 <br/>
+<br/>
 
 ### Github Blog 만들기
 1.&#160;github에서 새로운 Repository를 만든다.
@@ -91,9 +93,9 @@ $ git push -u origin main(또는 master, 이는 자신의 마스터브랜치 이
 5.&#160;push가 성공적으로 되었다면, 로컬 폴더의 파일들이 github repository에 업데이트된 것을 확인할 수 있을 것이다. 혹은 반대.
 
 <br/>
+<br/>
 
-
-### Jekyll 커스터마이징
+### Jekyll Theme 
 #### Jekyll theme 고르기
 
 Jekyll theme은 구글링을 통해 쉽게 찾을 수 있다. 유료와 무료 다양한 옵션들이 있다.
@@ -111,7 +113,30 @@ $ git push -u origin main
 {% endhighlight %}
 
 <br/>
+<br/>
 
+### Jekyll 커스터마이징
+#### Jekyll의 기본 directory
+##### _config.yml	
+환경 설정 변수를 정의한다. 페이지네이션, 빌드 세팅 및 사이트의 이름, description, url 등 메타 정보를 정의한다.  
+##### _includes	
+head, header, footer의 사이트 전반에 공통으로(반복적으로) 사용되는 HTML 파일을 관리한다. <code>&#123;% include file.ext %&#125;</code> 와 같이 Liquid 태그를 사용하면 <code>&#95;includes/file&#46;ext</code> 파일에 담긴 코드가 삽입된다.  
+##### _layouts	
+post, page 등 페이지의 레이아웃을 정의하는 HTML 파일을 관리한다. default.html 문서에 _includes에서 정의한 html이 liquid 태그로 쓰여있다.  
+##### index.md	
+Index 페이지(사이트 진입시 첫 페이지)를 정의한다.  
+##### _sass	
+SCSS 파일이 모여져 있는 곳이다.  
+##### _posts	
+포스트 마크다운(컨텐츠)을 관리한다. 파일의 이름은 반드시 <code>YEAR-MONTH-DAY-title.MARKUP</code> 이어야 한다.  
+##### _drafts	
+아직 배포하지 않은 draft posts를 담고 있다.
+
+#### 첫 진입 페이지 변경하기
+
+
+<br/>
+<br/>
 
 ### 기타 Memo
 ##### 로컬 서버 호스트

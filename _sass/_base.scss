@@ -122,7 +122,7 @@ dl, dd, ol, ul, figure {
 $base-font-family:              'Avenir', 'NotoSansKR', sans-serif;
 $title-font-family:             'JosefinSans', 'NotoSansKR', sans-serif;
 $base-line-height:              1.7em;
-$horizontal-spacing-unit:       50px;
+$horizontal-spacing-unit:       24px;
 $vertical-spacing-unit:         24px;
 $nav-height:                    56px;
 
@@ -141,8 +141,8 @@ $lime_green: #8ed51c;
 $purple: #B509AC;
 $black: #030303;
 
-
-$grey-color-90: #030303;
+$grey-color-100: #000000;
+$grey-color-90: #212122;
 $grey-color-80: #36363e;
 $grey-color-70: #464b50;
 $grey-color-60: #5f626a;
@@ -181,7 +181,7 @@ body {
 blockquote, p,figure, pre,
 ul, ol, dl,
 %vertical-rhythm {
-    margin-bottom: $vertical-spacing-unit / 2;
+    margin-bottom: $vertical-spacing-unit / 3;
 }
 
 
@@ -266,7 +266,7 @@ a {
     }
     */
     &:hover {
-        color: $grey-color-90;
+        color: $grey-color-100;
         /* text-decoration: solid underline $theme-color 1px;
         text-underline-position: under; */
     }
@@ -319,6 +319,7 @@ pre,
 code {
     font-family: "SourceCodePro", monospace;
     font-size: 14px;
+    color: white;
     line-height: 1.7em;
     border-radius: 3px;
     background-color: #272822;
@@ -349,7 +350,7 @@ pre {
  * Wrapper
  */ 
 
-.wrapper {
+.nav_wrapper {
     max-width: -webkit-calc(976px - (#{$horizontal-spacing-unit} * 2));
     max-width:         calc(976px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
@@ -367,7 +368,7 @@ pre {
 }
 
 
-.post_wrapper {
+.wrapper {
     max-width: -webkit-calc(940px - (#{$horizontal-spacing-unit} * 2));
     max-width:         calc(940px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
