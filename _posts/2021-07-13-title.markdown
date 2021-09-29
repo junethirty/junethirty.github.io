@@ -3,6 +3,7 @@ layout: post
 title:  Jekyll, Github 블로그 만들기
 date:   2021-07-13 
 description: 개발 환경 구축(설치), 블로그 생성, 커스터마이징
+img : /img/github_jekyll_logo.jpg
 ---
 <br/>
 

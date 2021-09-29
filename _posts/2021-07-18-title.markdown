@@ -3,6 +3,7 @@ layout: post
 title: CSS, SCSS, SASS
 date: 2021-07-18
 description: 개념, Syntax 예시
+img : /img/sass_logo.jpg
 ---
 <br/>
 

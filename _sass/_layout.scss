@@ -5,7 +5,7 @@
 .site-header {
 border-bottom: 1px solid $grey-color-10;
 background-color: #fff;
-opacity: 0.75;
+opacity: 1;
 position: fixed;
 left:0px;
 top:0px;
@@ -142,8 +142,11 @@ color: $theme-color;
 /**
  * Page content   **********************************************************
  */
+.page-margin-top {
+    height: 120px;
+}
 .page-content {
-padding: 120px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+padding: 0 0 180px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
 font-size: 20px;
@@ -175,8 +178,26 @@ text-align: center;
 /**
  * Posts  **********************************************************
  */
+.post-header-image {
+    margin-top: 57px;
+    margin-bottom: 70px;
+    min-height: 360px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 .post-header {
 margin-bottom: $vertical-spacing-unit*1.5;
+
+    .post-description {
+        font-family: $base-font-family;
+        font-size: 20px;
+        font-weight: 400;
+        color: $grey-color-40;
+        margin-bottom: 18px;
+        }
+
 }
 .post-title {
     color: $title-color;
@@ -184,11 +205,12 @@ margin-bottom: $vertical-spacing-unit*1.5;
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 1.6;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
     @include media-query($on-laptop) {
     font-size: 32px;
     margin-bottom: 7px;
         }
+         
 }
 
 
