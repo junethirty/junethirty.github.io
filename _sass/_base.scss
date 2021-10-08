@@ -150,6 +150,7 @@ $grey-color-50: #727272;
 $grey-color-40: #a0a0a0;   /* footer, 상단 menu */
 $grey-color-20: #B5b5b5;
 $grey-color-10: #ddd;  /* navigation bar border */
+$white: #ffffff;
 $text-color:     $grey-color-60;
 $title-color:     $grey-color-80;
 
@@ -250,7 +251,7 @@ h4, h5, h6 {
  */
  ::selection {
      background-color: rgb(240, 240, 240);
-     color: darken($theme-color, 10%);
+     color: darken($grey-color-20, 10%);
  }
 
 /**
