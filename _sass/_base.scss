@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 @font-face {
     font-family: 'Avenir';
@@ -25,7 +25,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/AvenirLTStd-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 @font-face {
     font-family: 'Avenir';
@@ -34,7 +34,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/AvenirLTStd-Book.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 //josefin sans
@@ -45,7 +45,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/JosefinSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 @font-face {
     font-family: 'JosefinSans';
@@ -54,7 +54,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/JosefinSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 @font-face {
     font-family: 'JosefinSans';
@@ -63,7 +63,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/JosefinSans-SemiBold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 @font-face {
     font-family: 'JosefinSans';
@@ -72,7 +72,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/JosefinSans-Bold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 // fonts korean
@@ -83,7 +83,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/NotoSansKR-Regular-Alphabetic.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
     unicode-range: U+AC00-D7AF;
 
 }
@@ -94,7 +94,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/NotoSansKR-Medium-Alphabetic.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
     unicode-range: U+AC00-D7AF;
 }
 
@@ -105,7 +105,7 @@ dl, dd, ol, ul, figure {
         url('/fonts/NotoSansKR-Bold-Alphabetic.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
     unicode-range: U+AC00-D7AF;
 }
 
@@ -114,7 +114,7 @@ dl, dd, ol, ul, figure {
     src:         url('/fonts/SourceCodePro-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 
