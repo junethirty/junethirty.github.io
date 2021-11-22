@@ -3,6 +3,10 @@ layout: page
 title: 
 permalink: /portfolio/
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26d5a0195417a05bba2bc8a03545fdf29b6a152c
 <!--
 <div class="header-bar">
   <h1>Portfolio</h1>
