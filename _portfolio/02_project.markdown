@@ -1,11 +1,82 @@
 ---
-layout: post
-title: Project
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+layout: portfolio
+title: Readtoo
+description: Brand, UXUI, Service
+img: /img/readtoo.jpg
 ---
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/01.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/02.jpg" alt="" title="readtoo02"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/03.jpg" alt="" title="readtoo03"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/04.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/05.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/06.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/07.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/08.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/09.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/10.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/11.jpg" alt="" title="readtoo01"/>
+</div>
+
+<br/>
+
+
+
+
+
+
+<!--
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
@@ -54,3 +125,4 @@ The code is simple. Just add a col class to your image, and another class specif
 	  <img class="col two" src="/img/6.jpg"/>
 	  <img class="col one" src="/img/11.jpg"/>
 	</div>
+-->

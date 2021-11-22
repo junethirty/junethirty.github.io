@@ -21,27 +21,27 @@ permalink: /portfolio/
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
             <p>{{ project.description }}</p>
+            <h1>{{ project.title }}</h1>
         </span>
         </a>
     </div>
 </div>
 {% else %}
 
-<div class="project ">
+<div class="project">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <div class="thumbnail" style="background-image : url({{ project.img }});"></div>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
+            <span class="portfoilo text">
             <p>{{ project.description }}</p>
+            <h1>{{ project.title }}</h1>
+            </span>
         </span>
         </a>
     </div>
