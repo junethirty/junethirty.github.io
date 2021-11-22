@@ -21,5 +21,5 @@ img: /img/chungun.jpg
 	<img class="col three" src="{{ site.baseurl }}/img/chungun/03.jpg" alt="" title="chungun03"/>
 </div>
 
-<br/>
+<br/><br/><br/><br/><br/><br/><br/>
 

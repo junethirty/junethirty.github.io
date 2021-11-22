@@ -9,7 +9,7 @@ img: /img/duckgoo.jpg
 	<img class="col three" src="{{ site.baseurl }}/img/duckgoo/01.jpg" alt="" title="duckgoo01"/>
 </div>
 
-<br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 
 

@@ -20,5 +20,5 @@ img: /img/dkd.jpg
 	<img class="col three" src="{{ site.baseurl }}/img/dkd/03.jpg" alt="" title="dkd03"/>
 </div>
 
-<br/>
+<br/><br/><br/><br/><br/><br/><br/>
 

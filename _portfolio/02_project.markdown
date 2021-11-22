@@ -24,52 +24,58 @@ img: /img/readtoo.jpg
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/04.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/04.jpg" alt="" title="readtoo04"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/05.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/05.jpg" alt="" title="readtoo05"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/06.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/06.jpg" alt="" title="readtoo06"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/07.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/07.jpg" alt="" title="readtoo07"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/08.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/08.jpg" alt="" title="readtoo08"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/09.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/09.jpg" alt="" title="readtoo09"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/10.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/10.jpg" alt="" title="readtoo10"/>
 </div>
 
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/readtoo/11.jpg" alt="" title="readtoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/11.jpg" alt="" title="readtoo11"/>
 </div>
 
 <br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/readtoo/12.jpg" alt="" title="readtoo12"/>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/>
 
 
 

@@ -3,11 +3,12 @@ layout: page
 title: 
 permalink: /portfolio/
 ---
-
+<!--
 <div class="header-bar">
   <h1>Portfolio</h1>
   <h2 class="title-description"></h2>
 </div>
+-->
 
 {% for project in site.portfolio %}
 

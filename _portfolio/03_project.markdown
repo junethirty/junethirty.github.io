@@ -21,6 +21,6 @@ img: /img/maumdotum.jpg
 	<img class="col three" src="{{ site.baseurl }}/img/maumdotum/03.jpg" alt="" title="maumdotum03"/>
 </div>
 
-<br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 
