@@ -1,85 +1,9 @@
 ---
-layout: portfolio
-title: Bookcovery
-description: Brand, UXUI, Service
-img: /img/bookcovery.jpg
+layout: post
+title: 신약
+description: Brand, Package
+img: /img/1.jpg
 ---
-
-
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/01.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/02.jpg" alt="" title="bookcovery02"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/03.jpg" alt="" title="bookcovery03"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/04.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/05.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/06.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/07.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/08.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/09.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/10.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/11.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/12.jpg" alt="" title="bookcovery01"/>
-</div>
-
-<br/>
-
-<!--
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
@@ -87,10 +11,11 @@ To give your project a background in the portfolio page, just add the img tag to
 
 	---
 	layout: post
-	title: 마음돋움
-	description: Typography
+	title: Project
+	description: a project with a background image
 	img: /img/12.jpg
 	---
+
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
@@ -128,4 +53,3 @@ The code is simple. Just add a col class to your image, and another class specif
 	  <img class="col two" src="/img/6.jpg"/>
 	  <img class="col one" src="/img/11.jpg"/>
 	</div>
--->

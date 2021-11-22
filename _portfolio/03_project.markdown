@@ -1,10 +1,30 @@
 ---
-layout: post
+layout: portfolio
 title: 마음돋움
 description: Typeface Design
 img: /img/maumdotum.jpg
 ---
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum/01.jpg" alt="" title="maumdotum01"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum/02.jpg" alt="" title="maumdotum02"/>
+</div>
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum/03.jpg" alt="" title="maumdotum03"/>
+</div>
+
+<br/>
+
+
+<!-->
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so: 

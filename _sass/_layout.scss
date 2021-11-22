@@ -364,11 +364,24 @@ opacity: 0;
 /** 
  * Portfolio pages **********************************************************
 */
+
+
+    
+
+.portfolio-content{
+    width: fit-content;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
 .blankbox{
 background: $grey-color-10;
 }
 .img_row{
-height: $img_height;
+height: 100%;
 width: 100%;
 overflow: hidden;
 box-sizing:border-box;
@@ -392,7 +405,9 @@ width:33.33%;
 width: 66.66%;
 }
 .three{
+display: inline;
 width: 100%;
+height: 100%;
 }
 .caption{
 height: 100%;
