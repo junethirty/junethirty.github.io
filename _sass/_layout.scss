@@ -404,17 +404,34 @@ opacity: 0;
 */
 
 
-
+.portfolio-header {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: $vertical-spacing-unit*3;
     
-
-.portfolio-content{
-    width: fit-content;
-    padding-left: 150px;
-    padding-right: 150px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0)
-}
+        .portfolio-description {
+            font-family: $base-font-family;
+            font-size: 18px;
+            font-weight: 800;
+            color: $grey-color-20;
+            margin-bottom: 10px;
+            margin-left: 3px;
+            }
+    
+    }
+    .portfolio-title {
+        color: $title-color;
+        font-size: 42px;
+        font-weight: 500;
+        letter-spacing: -1px;
+        line-height: 1.6;
+        margin-bottom: 6px;
+        @include media-query($on-laptop) {
+        font-size: 32px;
+        margin-bottom: 6px;
+            }
+             
+    }
 
 .blankbox{
 background: $grey-color-10;
@@ -431,8 +448,7 @@ width: 100%;
 height: 100%;
 float: left;
 object-fit: cover;
-box-sizing:border-box;
-padding: $img_spacing;
+box-sizing: border-box;
 }
 .right{
 float: right;
