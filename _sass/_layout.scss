@@ -5,22 +5,23 @@ home layouts
 .container {
     overflow: hidden;
     width: auto;
-    margin-bottom: 18px;
-    margin-top: 17px;
+    margin-bottom: 34px;
+    margin-top: 32px;
 }
 .company-name {
     float: left;
     width: 180px;
     margin-right: 70px;
 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
-    color: $title-color;
+    line-height: 28px;
+    color: $grey-color-70;
+    letter-spacing: 0.01em ;
 }
 .company-description{
     float: left;
-    font-size: 15px;
+    font-size: 16px;
   width: 500px;
   
 }
@@ -33,26 +34,30 @@ home layouts
 .home-subtitle {
     color: $theme-color;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 13px;
+}
+
+.emoji-home-subtitle {
+    font-size: 20px;
 }
 
 .home-image {
     float: right;
-    width: 240px;
+    width: auto;
     margin-top: 20px;
     
 }
 
 .prof-pic {
-    width: 240px;
-    height: 240px;
+    width: 246px;
+    height: 246px;
 }
 
 .home-text {
     float: left;
     width: 550px;
-    margin-right: 80px;
+    margin-right: 92px;
 }
 
 //home(about)
@@ -60,7 +65,16 @@ home layouts
 .home-title {
     font-family: $title-font-family;
     color: $title-color;
-    font-size: 18px;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.7em;
+    letter-spacing: 0.003em ;
+}
+
+.home-title-ko {
+    font-family: $title-font-family;
+    color: $title-color;
+    font-size: 34px;
     font-weight: 700;
     line-height: 1.7em;
     letter-spacing: 0.003em ;

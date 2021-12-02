@@ -11,6 +11,16 @@ dl, dd, ol, ul, figure {
 // fonts english
 @font-face {
     font-family: 'Avenir';
+    src: url('/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('/fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+        url('/fonts/AvenirNextLTPro-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Avenir';
     src: url('/fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
         url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
         url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
@@ -151,11 +161,11 @@ $grey-color-40: #a0a0a0;   /* footer, 상단 menu */
 $grey-color-20: #B5b5b5;
 $grey-color-10: #ddd;  /* navigation bar border */
 $white: #ffffff;
-$text-color:     $grey-color-60;
-$title-color:     $grey-color-80;
+$text-color:     $grey-color-70;
+$title-color:     $grey-color-90;
 
 /* Set theme color *************************/
-$theme-color:   #f7745c;
+$theme-color:   #62D9EA;
 
 
 /************************************************************/
