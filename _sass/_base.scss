@@ -155,7 +155,7 @@ $text-color:     $grey-color-60;
 $title-color:     $grey-color-80;
 
 /* Set theme color *************************/
-$theme-color:   #90e0ef;
+$theme-color:   #f7745c;
 
 
 /************************************************************/
@@ -257,11 +257,11 @@ h4, h5, h6 {
 /**
  * Links
  */
+
 a {
     transition: all 0.2s ease-in-out;
     color: $grey-color-70;
-    text-decoration: solid underline $grey-color-10 1px;
-    text-underline-position: under;
+    text-decoration: none;
     /*
     &:visited {
         color: darken($brand-color, 15%); 
@@ -269,14 +269,24 @@ a {
     */
     &:hover {
         color: $grey-color-80;
-        text-decoration: solid underline $theme-color 1px;
-        text-underline-position: under;
     }
 }
 
 article a {
     color: $text-color;
-    text-decoration: solid underline $theme-color 1px;
+    text-decoration: solid underline $grey-color-10 1px;
+    text-underline-position: under;
+
+    &:hover {
+        color: $theme-color;
+        text-decoration: solid underline $theme-color 1px;
+        text-underline-position: under;
+    }
+}
+
+.home-description a {
+    color: $text-color;
+    text-decoration: solid underline $grey-color-10 1px;
     text-underline-position: under;
 
     &:hover {
