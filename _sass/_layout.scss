@@ -4,6 +4,7 @@ home layouts
 
 .container {
     overflow: hidden;
+    width: auto;
     margin-bottom: 18px;
     margin-top: 17px;
 }
@@ -12,7 +13,7 @@ home layouts
     width: 180px;
     margin-right: 70px;
 
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     color: $title-color;
@@ -35,6 +36,53 @@ home layouts
     font-weight: 800;
     margin-bottom: 13px;
 }
+
+.home-image {
+    float: right;
+    width: 240px;
+    margin-top: 20px;
+    
+}
+
+.prof-pic {
+    width: 240px;
+    height: 240px;
+}
+
+.home-text {
+    float: left;
+    width: 550px;
+    margin-right: 80px;
+}
+
+//home(about)
+
+.home-title {
+    font-family: $title-font-family;
+    color: $title-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.7em;
+    letter-spacing: 0.003em ;
+}
+
+.home-description {
+    font-family: $base-font-family;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.003em ;
+    color: $title-color;
+    margin-top: 14px;
+}
+
+.title-description {
+    font-family: $base-font-family;
+    font-size: 20px;
+    font-weight: 400;
+    color: $grey-color-50;
+    margin-top: 7px;
+}
+
 
 
 /**
@@ -98,23 +146,6 @@ line-height: $nav-height;
         font-size: 38px;
         font-weight: 700;
         line-height: 1.3em;
-    }
-
-    //home(about)
-    .home-description {
-        font-family: $base-font-family;
-        font-size: 28px;
-        font-weight: 400;
-        color: $title-color;
-        margin-top: 14px;
-    }
-
-    .title-description {
-        font-family: $base-font-family;
-        font-size: 20px;
-        font-weight: 400;
-        color: $grey-color-50;
-        margin-top: 7px;
     }
 }
 
@@ -471,3 +502,4 @@ text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
 }
+
