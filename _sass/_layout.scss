@@ -42,24 +42,41 @@ home layouts
     font-size: 20px;
 }
 
-.home-image {
+.home-profile {
     float: right;
     width: auto;
     margin-top: 20px;
     
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+
+    a {
+        transition: all 0.2s ease-in-out;
+        color: $grey-color-40;
+        &:hover {
+            color: $theme-color;
+        }
+    
+    .emoji-home-profile {
+        font-size: 16px;
+         }
+    }
+
+
 }
 
 .prof-pic {
-    width: 240px;
-    height: 240px;
-    border: 2px solid $grey-color-20;
+    width: 250px;
+    height: 250px;
+    border: 2px solid $grey-color-10;
     border-radius: 100000px;
 }
 
 .home-text {
     float: left;
     width: 550px;
-    margin-right: 85px;
+    margin-right: 60px;
 }
 
 //home(about)
@@ -169,10 +186,10 @@ line-height: $nav-height;
  * Site footer  **********************************************************
  */
 .site-footer {
-font-size: 10px;
+font-size: 12px;
 padding: 2px;
 color: $grey-color-40;
-position:fixed;
+/* position:fixed; */
 left:0px;
 bottom:0px;
 width:100%;

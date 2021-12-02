@@ -161,7 +161,7 @@ $grey-color-40: #a0a0a0;   /* footer, 상단 menu */
 $grey-color-20: #B5b5b5;
 $grey-color-10: #ddd;  /* navigation bar border */
 $white: #ffffff;
-$text-color:     $grey-color-70;
+$text-color:     $grey-color-60;
 $title-color:     $grey-color-90;
 
 /* Set theme color *************************/
@@ -270,7 +270,7 @@ h4, h5, h6 {
 
 a {
     transition: all 0.2s ease-in-out;
-    color: $grey-color-70;
+    color: $grey-color-80;
     text-decoration: none;
     /*
     &:visited {
@@ -278,7 +278,7 @@ a {
     }
     */
     &:hover {
-        color: $grey-color-80;
+        color: $grey-color-90;
     }
 }
 
