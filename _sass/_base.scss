@@ -394,8 +394,8 @@ pre {
 }
 
 .nav_wrapper {
-    max-width: -webkit-calc(976px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(976px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(936px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(936px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
