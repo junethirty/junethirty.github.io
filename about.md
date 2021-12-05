@@ -17,12 +17,19 @@ description:
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
+       <a class="post-container" href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-item">
-             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <p class="post-description"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.description }}</a></p>
+                  <h2>{{ post.title }}</h2>
+                  <p class="post-description">{{ post.description }}</p>
            <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         </div>
+        </a>
         <hr/>
       </li>
     {% endfor %}
 </ul>
+
+
+
+
+

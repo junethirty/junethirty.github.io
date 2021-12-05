@@ -16,7 +16,7 @@ home layouts
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    color: $grey-color-70;
+    color: $grey-color-80;
     letter-spacing: 0.01em ;
 }
 .company-description{
@@ -60,6 +60,7 @@ home layouts
     
     .emoji-home-profile {
         font-size: 16px;
+        margin-right: 2px;
          }
     }
 
@@ -75,7 +76,7 @@ home layouts
 
 .home-text {
     float: left;
-    width: 550px;
+    width: 500px;
     margin-right: 60px;
 }
 
@@ -259,6 +260,7 @@ h2 {
 }
 margin: 0px 0;
 list-style: none;
+/*
     > li {
         margin-top: 28px;
             > div {
@@ -266,6 +268,7 @@ list-style: none;
             }
 margin-bottom: 0apx;
     }
+    */
 }
 .contacticon {
 font-size: 60px;
@@ -280,6 +283,12 @@ text-align: center;
 /**
  * Posts  **********************************************************
  */
+
+.post-item {
+        margin-top: 28px;
+        margin-bottom: 22px;
+}
+
 .post-header-image {
     margin-top: 57px;
     margin-bottom: 70px;
@@ -319,7 +328,7 @@ margin-bottom: $vertical-spacing-unit*1.5;
 .post-content {
     
 h2 {
-font-size: 26px;
+font-size: 24px;
 margin-bottom: 7px;
 @include media-query($on-laptop) {
 font-size: 28px;
@@ -467,17 +476,60 @@ opacity: 0;
  * Portfolio pages **********************************************************
 */
 
+/**added for list layout of portfolio*/
+
+.post-thumnail {
+    margin-bottom: 13px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-tag {
+    color: $theme-color;
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.post-container {
+    h2 {
+        margin-bottom: 3px;
+        font-weight: 700;
+        color: $grey-color-80;
+    }
+    .post-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        color: $grey-color-50;
+    }
+    .post-previewtext {
+        font-size: 15px;
+        line-height: 1.5em;
+        color: $grey-color-50;
+        margin-top: 25px;
+    }
+}
+
+.portfolio-item {
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+/**end-added for list layout of portfolio*/
 
 .portfolio-header {
     margin-top: 0px;
     margin-left: 15px;
     margin-bottom: $vertical-spacing-unit*3;
     
-        .portfolio-description {
+        .portfolio-tag {
             font-family: $base-font-family;
             font-size: 18px;
-            font-weight: 800;
-            color: $grey-color-20;
+            font-weight: 600;
+            color: $theme-color;
             margin-bottom: 10px;
             margin-left: 3px;
             }
@@ -485,17 +537,24 @@ opacity: 0;
     }
     .portfolio-title {
         color: $title-color;
-        font-size: 42px;
-        font-weight: 500;
+        font-size: 32px;
+        font-weight: 700;
         letter-spacing: -1px;
         line-height: 1.6;
-        margin-bottom: 6px;
+        margin-top: 26px;
         @include media-query($on-laptop) {
         font-size: 32px;
         margin-bottom: 6px;
             }
-             
+
     }
+
+.portfolio-subtitle {
+    color: $grey-color-50;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+}
 
 .blankbox{
 background: $grey-color-10;
@@ -505,7 +564,7 @@ height: 100%;
 width: 100%;
 overflow: hidden;
 box-sizing:border-box;
-padding: $img_spacing;
+padding: 10px 0px 10px 0px;
 }
 .col{ 
 width: 100%;

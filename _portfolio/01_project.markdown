@@ -1,8 +1,10 @@
 ---
 layout: portfolio
+tag: Brand, UXUI, Service
 title: Bookcovery
-description: Brand, UXUI, Service
-img: /img/bookcovery.jpg
+subtitle: 앞서가는 사람들의 세상 모든 서재, 북커버리
+previewtext: 세상에 존재하는 수많은 멋진 사람들을 책과 커리어로 연결한다면, 나에게 필요한 좋은 책을 발견하는 경험을 줄 수 있지 않을까요? 그리고 동시에 책을 통해서 새로운 사람들을 만날 수도 있지 않을까요? 누구나 나에게 필요한 좋은 책을 찾을 수 있게, 사람과 커리어 그리고 책의 새로운 연결을 꿈꾸며 런칭한 신규 서비스입니다.
+img: /img/ver2_bookcovery.png
 ---
 
 
@@ -11,73 +13,73 @@ img: /img/bookcovery.jpg
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/01.jpg" alt="" title="bookcovery01"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/02.jpg" alt="" title="bookcovery02"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/03.jpg" alt="" title="bookcovery03"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/04.jpg" alt="" title="bookcovery04"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/05.jpg" alt="" title="bookcovery05"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/06.jpg" alt="" title="bookcovery06"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/07.jpg" alt="" title="bookcovery07"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/08.jpg" alt="" title="bookcovery08"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/09.jpg" alt="" title="bookcovery09"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/10.jpg" alt="" title="bookcovery10"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/11.jpg" alt="" title="bookcovery11"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/12.jpg" alt="" title="bookcovery12"/>
 </div>
 
-<br/><br/><br/><br/><br/><br/><br/>
+
 
 <!--
 
@@ -119,7 +121,7 @@ You can also put regular text between your rows of images. Say you wanted to wri
 </div>
 
 
-<br/><br/><br/>
+
 
 
 The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 

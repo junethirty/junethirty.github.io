@@ -1,81 +1,83 @@
 ---
 layout: portfolio
+tag: Brand, UXUI, Service
 title: Readtoo
-description: Brand, UXUI, Service
-img: /img/readtoo.jpg
+subtitle: 좋아하는 사람들과 편리하고 다채롭게 함께 읽기
+previewtext: Readtoo(리드투)는 좋아하는 사람들과 함께 읽는 이북 서비스입니다. 다양한 사람을 만날 수 있는 커뮤니티와 공유되는 하이라이트(말풍선), 다양한 토론이 가능한 Readtoo를 통해 일상 생활 속에서 편리하고 다채로운 독서 경험을 누리고, 그 소중한 시간과 이야기들을 온전히 소유해보세요.
+img: /img/ver2_readtoo.png
 ---
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/01.jpg" alt="" title="readtoo01"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/02.jpg" alt="" title="readtoo02"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/03.jpg" alt="" title="readtoo03"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/04.jpg" alt="" title="readtoo04"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/05.jpg" alt="" title="readtoo05"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/06.jpg" alt="" title="readtoo06"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/07.jpg" alt="" title="readtoo07"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/08.jpg" alt="" title="readtoo08"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/09.jpg" alt="" title="readtoo09"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/10.jpg" alt="" title="readtoo10"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/11.jpg" alt="" title="readtoo11"/>
 </div>
 
-<br/>
+
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/readtoo/12.jpg" alt="" title="readtoo12"/>
 </div>
 
-<br/><br/><br/><br/><br/><br/><br/>
+
 
 
 
@@ -122,7 +124,7 @@ You can also put regular text between your rows of images. Say you wanted to wri
 </div>
 
 
-<br/><br/><br/>
+
 
 
 The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 

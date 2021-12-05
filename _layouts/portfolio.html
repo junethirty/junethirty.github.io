@@ -15,8 +15,15 @@
 <div class="portfolio">
   
   <header class="portfolio-header">
-    <h2 class="portfolio-description">{{ page.description }}</h2>
+    <h2 class="portfolio-tag">{{ page.tag }}</h2>
     <h1 class="portfolio-title">{{ page.title }}</h1>
+    <h2 class="portfolio-subtitle">{{ page.subtitle }}</h2>
+    
+        {% if post.description %}
+        <p class="post-description">{{ post.description }}</p>
+        {% else %}
+        {% endif %}  
+
     <!--
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     --> 

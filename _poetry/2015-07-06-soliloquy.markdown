@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Soliloquy Of The Solipsist
-date: 2015-07-06 07:59:00
+title:  Jekyll, Github 블로그 만들기
+date:   2021-07-13 
+description: 개발 환경 구축(설치), 블로그 생성, 커스터마이징
+img : /img/github_jekyll_logo.jpg
 ---
 I?    
 I walk alone;    

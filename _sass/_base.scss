@@ -151,17 +151,18 @@ $lime_green: #8ed51c;
 $purple: #B509AC;
 $black: #030303;
 
-$grey-color-100: #000000;
+$grey-color-100: #0E0F0F;
 $grey-color-90: #212122;
-$grey-color-80: #36363e;
-$grey-color-70: #464b50;
-$grey-color-60: #5f626a;
-$grey-color-50: #727272;
-$grey-color-40: #a0a0a0;   /* footer, 상단 menu */
-$grey-color-20: #B5b5b5;
-$grey-color-10: #ddd;  /* navigation bar border */
+$grey-color-80: #3C3D3F;
+$grey-color-70: #55575B;
+$grey-color-60: #71747D;
+$grey-color-50: #8E929B;
+$grey-color-40: #B5B7BD;   /* footer, 상단 menu */
+$grey-color-30: #CECFD4;
+$grey-color-20: #E7E8EA;
+$grey-color-10: #F6F7FA;  /* navigation bar border */
 $white: #ffffff;
-$text-color:     $grey-color-60;
+$text-color:     $grey-color-70;
 $title-color:     $grey-color-90;
 
 /* Set theme color *************************/
@@ -208,7 +209,7 @@ hr{
     /* Inset, by Dan Eden */
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid $grey-color-20;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
 }
@@ -282,21 +283,24 @@ a {
     }
 }
 
-article a {
-    color: $text-color;
-    text-decoration: solid underline $grey-color-10 1px;
-    text-underline-position: under;
+.portfolio-item:hover {
+        h2, .post-subtitle, .post-previewtext {
+            transition: all 0.3s ease-in-out;
+            opacity: 75%;
+        }
+        }
 
-    &:hover {
-        color: $theme-color;
-        text-decoration: solid underline $theme-color 1px;
-        text-underline-position: under;
+.post-item:hover {
+    h2, .post-description {
+        transition: all 0.3s ease-in-out;
+        opacity: 75%;
     }
-}
+    }
+        
 
 .home-description a {
     color: $text-color;
-    text-decoration: solid underline $grey-color-10 1px;
+    text-decoration: solid underline $grey-color-30 1px;
     text-underline-position: under;
 
     &:hover {
@@ -408,8 +412,8 @@ pre {
 
 
 .wrapper {
-    max-width: -webkit-calc(940px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(940px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(900px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(900px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -430,30 +434,16 @@ pre {
 
 .post-list {
     .post-description { 
-        a {
-            color: $text-color;
+            color: $grey-color-50;
             font-weight: 400;
-        }
     }
 }
 
 .post-meta {
-    color: $grey-color-20;
+    color: $grey-color-40;
 }
 
-.post-item {
-    h2:hover {
-        transition: all 0.3s ease-in-out;
-        color: darken($color: $grey-color-90, $amount: 100);
-    }
-    .post-description:hover {
-        a {
-            transition: all 0.3s ease-in-out;
-            color: darken($color: $grey-color-60, $amount: 50);
-        }
-        
-    }
-}
+
 
 /**
  * Clearfix
