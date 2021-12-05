@@ -7,39 +7,39 @@ img: /img/ver2_dkd.png
 
 ---
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/00.png" alt="" title="dkd00"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/00.jpg" alt="" title="dkd00"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/01.png" alt="" title="dkd01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/01.jpg" alt="" title="dkd01"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/02.png" alt="" title="dkd02"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/02.jpg" alt="" title="dkd02"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/03.png" alt="" title="dkd03"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/03.jpg" alt="" title="dkd03"/>
 </div>
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/04.png" alt="" title="dkd04"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/04.jpg" alt="" title="dkd04"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/05.png" alt="" title="dkd05"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/05.jpg" alt="" title="dkd05"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/06.png" alt="" title="dkd06"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/06.jpg" alt="" title="dkd06"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/07.png" alt="" title="dkd07"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/07.jpg" alt="" title="dkd07"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/dkd2/08.png" alt="" title="dkd08"/>
+	<img class="col three" src="{{ site.baseurl }}/img/dkd2/08.jpg" alt="" title="dkd08"/>
 </div>
 

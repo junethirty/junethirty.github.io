@@ -7,35 +7,35 @@ img: /img/ver2_maumdotum.png
 ---
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/01.png" alt="" title="maumdotum01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/01.jpg" alt="" title="maumdotum01"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/02.png" alt="" title="maumdotum02"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/02.jpg" alt="" title="maumdotum02"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/03.png" alt="" title="maumdotum03"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/03.jpg" alt="" title="maumdotum03"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/04.png" alt="" title="maumdotum04"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/04.jpg" alt="" title="maumdotum04"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/05.png" alt="" title="maumdotum05"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/05.jpg" alt="" title="maumdotum05"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/06.png" alt="" title="maumdotum06"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/06.jpg" alt="" title="maumdotum06"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/07.png" alt="" title="maumdotum07"/>
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/07.jpg" alt="" title="maumdotum07"/>
 </div>
 
 

@@ -7,19 +7,19 @@ img: /img/ver2_chungun.png
 ---
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/chungun2/01.png" alt="" title="chungun01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/chungun2/01.jpg" alt="" title="chungun01"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/chungun2/02.png" alt="" title="chungun02"/>
+	<img class="col three" src="{{ site.baseurl }}/img/chungun2/02.jpg" alt="" title="chungun02"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/chungun2/03.png" alt="" title="chungun03"/>
+	<img class="col three" src="{{ site.baseurl }}/img/chungun2/03.jpg" alt="" title="chungun03"/>
 </div>
 
 

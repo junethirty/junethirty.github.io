@@ -7,18 +7,18 @@ img: /img/ver2_duckgoo.png
 ---
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/01.png" alt="" title="duckgoo01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/01.jpg" alt="" title="duckgoo01"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/02.png" alt="" title="duckgoo02"/>
+	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/02.jpg" alt="" title="duckgoo02"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/04.png" alt="" title="duckgoo03"/>
+	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/04.jpg" alt="" title="duckgoo03"/>
 </div>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/03.png" alt="" title="duckgoo04"/>
+	<img class="col three" src="{{ site.baseurl }}/img/duckgoo2/03.jpg" alt="" title="duckgoo04"/>
 </div>
 
