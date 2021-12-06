@@ -23,7 +23,10 @@ home layouts
     float: left;
     font-size: 16px;
   width: 500px;
-  
+  @media (max-width: 520px) {
+    float: left;
+    width: auto;
+}
 }
 
 .company-time {
@@ -50,6 +53,16 @@ home layouts
     font-size: 14px;
     font-weight: 300;
     text-align: center;
+
+    @media (max-width: 862px) {
+        float: left;
+        width: auto;
+    }
+    @media (max-width: 530px) {
+        text-align: center;
+        width: 100%;
+        margin-right: 0px;
+    }
 
     a {
         transition: all 0.2s ease-in-out;
@@ -78,6 +91,11 @@ home layouts
     float: left;
     width: 500px;
     margin-right: 60px;
+    @media (max-width: 530px) {
+        float: left;
+        width: auto;
+        margin-right: 0px;
+    }
 }
 
 //home(about)
@@ -132,6 +150,12 @@ top:0px;
 height:56px;
 width:100%;
 z-index: 50;
+@media (max-width: 287px) {
+    height:112px;
+}
+@media (max-width: 202px) {
+    height:168px;
+}
 }
 
 
@@ -247,6 +271,12 @@ color: $theme-color;
  */
 .page-margin-top {
     height: 120px;
+    @media (max-width: 287px) {
+        height:130px;
+    }
+    @media (max-width: 202px) {
+        height:170px;
+    }
 }
 .page-content {
 padding: 0 0 180px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
