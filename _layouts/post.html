@@ -11,6 +11,19 @@ layout: default
     <!-- <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     -->
   </header>
+  {% if page.introduction %}
+  <p class="post-introduction">{{ page.introduction }}</p>
+  {% else %}
+  {% endif %} 
+
+  <br/>
+
+  {% if page.role %}
+  <p class="post-role">{{ page.role }}</p>
+  {% else %}
+  {% endif %}  
+
+  <br/>
 
   <article class="post-content">
     {{ content }}

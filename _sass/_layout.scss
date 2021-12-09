@@ -1,3 +1,11 @@
+.emojii {
+    font-size: 40px;
+}
+.emojiii {
+    font-size: 70px;
+    line-height: 1.3em;
+}
+
 /**
 home layouts
 */
@@ -347,36 +355,43 @@ margin-bottom: $vertical-spacing-unit*1.5;
     letter-spacing: -1px;
     line-height: 1.6;
     margin-bottom: 12px;
-    @include media-query($on-laptop) {
-    font-size: 32px;
-    margin-bottom: 7px;
+        @include media-query($on-laptop) {
+        font-size: 32px;
+        margin-bottom: 7px;
         }
-         
+}
+
+.post-role {
+    padding: 30px 30px;
+    background-color: $grey-color-10;
+    border-radius: 10px;
+    line-height: 2.1em;
+    font-size: 15px;
 }
 
 
 .post-content {
-    
+
 h2 {
 font-size: 24px;
 margin-bottom: 7px;
-@include media-query($on-laptop) {
-font-size: 28px;
+    @include media-query($on-laptop) {
+    font-size: 28px;
         }
     }
 h3 {
 font-size: 22px;
 margin-bottom: 20px;
-@include media-query($on-laptop) {
-font-size: 22px;
+    @include media-query($on-laptop) {
+    font-size: 22px;
         }
     }
 h4 {
 font-size: 18px;
 margin-top: 20px;
 margin-bottom: 12px;
-@include media-query($on-laptop) {
-font-size: 18px;
+    @include media-query($on-laptop) {
+    font-size: 18px;
         }
     }
 h5 {
@@ -384,8 +399,8 @@ h5 {
     margin-bottom: 2px;
     @include media-query($on-laptop) {
     font-size: 18px;
-            }
         }
+    }
 figure {
     margin-bottom: 0px;
     }   
@@ -395,10 +410,12 @@ pre {
     margin-top: -4px;
     }
 }
+
 .post-meta {
 font-size: 12px;
 margin-bottom: 0px; 
 }
+
 .post-link {
 display: block;
 font-size: 42px;
@@ -409,8 +426,8 @@ font-size: 42px;
 font-size: 24px;
 letter-spacing: -1px;
 line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
+    @include media-query($on-laptop) {
+    font-size: 16px;
     }
 }
 
@@ -623,5 +640,28 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+margin-top: -10px;
+    margin-bottom: 10px;
 }
 
+.callout{
+    padding: 20px 15px;
+    background-color: $grey-color-20;
+    border-radius: 10px;
+    line-height: 2.1em;
+    font-size: $text-font-size;
+    margin: 10px 0px;
+}
+
+.emoji-callout {
+    font-size: 20px;
+}
+
+.text-highlight {
+    background-color: $theme-color20;
+}
+
+.emoji-text-title {
+    font-size: 24px;
+    margin-right: 2px;
+}
