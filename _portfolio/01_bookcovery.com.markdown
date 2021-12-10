@@ -117,9 +117,6 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.10.jpg" alt="" title="bookcovery.company.10"/>
 </div>
-<div class="col three caption">
-	자동 승인을 통해 인증 완료 후 나중에 북커버리에서 승인 절차를 거치는 방식으로 변경되었습니다.
-</div>
 
 ##### 온보딩 멘트 변경 및 이미지 변경
 
@@ -134,9 +131,6 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 #### 해결 5. 혼란을 줄이도록 UI 개선
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.11.jpg" alt="" title="bookcovery.company.11"/>
-</div>
-<div class="col three caption">
-	자동 승인을 통해 인증 완료 후 나중에 북커버리에서 승인 절차를 거치는 방식으로 변경되었습니다.
 </div>
 
 ##### 인증메일 발송 완료 모달
