@@ -8,12 +8,12 @@ img : /img/github_jekyll_logo.jpg
 <br/>
 
 ### Jekyll이란?
-이 블로그는 <a href="https://jekyllrb.com/" target="blank">Jekyll</a>을 사용해 구축했고, 호스팅 플랫폼으로 Github을 사용했다. <a href="https://jekyllrb.com/" target="blank">Jekyll</a>은 Github Pages와 연동되는 site generator 중 하나이다. Jekyll은 Ruby라는 언어를 기반으로 하며, 마크다운 방식으로 글쓰기가 가능하다. 자유롭게 커스터마이징이 가능하며, 마음에 드는 Jekyll theme을 골라 사용할 수도 있다. 이 블로그는 Theme을 Fork하여, 필요한 기능을 추가하고 변경하면서 커스터마이징하였다. 
+이 블로그는 <a class="post-text" href="https://jekyllrb.com/" target="blank">Jekyll</a>을 사용해 구축했고, 호스팅 플랫폼으로 Github을 사용했다. <a class="post-text" href="https://jekyllrb.com/" target="blank">Jekyll</a>은 Github Pages와 연동되는 site generator 중 하나이다. Jekyll은 Ruby라는 언어를 기반으로 하며, 마크다운 방식으로 글쓰기가 가능하다. 자유롭게 커스터마이징이 가능하며, 마음에 드는 Jekyll theme을 골라 사용할 수도 있다. 이 블로그는 Theme을 Fork하여, 필요한 기능을 추가하고 변경하면서 커스터마이징하였다. 
 
 #### Jekyll 설치를 위해 필요한 것들
 <ul>
 	<li>Github 계정</li>
-	<li><a href="https://brew.sh/" target="blank">Homebrew</a> (최신 버전 Ruby를 동작하기 위해서는 Homebrew를 통해 Ruby를 설치해야 한다.)</li>
+	<li><a class="post-text" href="https://brew.sh/" target="blank">Homebrew</a> (최신 버전 Ruby를 동작하기 위해서는 Homebrew를 통해 Ruby를 설치해야 한다.)</li>
 	<li>Ruby version 2.5.0 or higher</li>
 </ul>
 
@@ -100,8 +100,8 @@ $ git push -u origin main(또는 master, 이는 자신의 마스터브랜치 이
 #### Jekyll theme 고르기
 
 Jekyll theme은 구글링을 통해 쉽게 찾을 수 있다. 유료와 무료 다양한 옵션들이 있다.
-- <a href="https://jekyllthemes.io/" target="blank">jekyllthemes.io</a>
-- <a href="http://jekyllthemes.org/" target="blank">jekyllthemes.org</a>
+- <a class="post-text" href="https://jekyllthemes.io/" target="blank">jekyllthemes.io</a>
+- <a class="post-text" href="http://jekyllthemes.org/" target="blank">jekyllthemes.org</a>
 
 Jekyll의 가장 주요한 장점이 자유로운 커스터마이징이 가능하다는 것인데, 어차피 커스터마이징을 할 거라면 만들고자 하는 사이트의 구조를 먼저 생각하고 디자인보다는 원하는 구조에 가까운 theme으로 선택하는 것이 좋다. 나는 개발 관련 정리를 할 수 있는 Blog와 포트폴리오를 합친 형태를 기획했고, 블로그와 포트폴리오를 합친 구조의 다양한 theme 옵션들 중에서 Blog와 구분된 가벼운 기록 글들을 올릴 수 있는 것이 마음에 들어 *folio라는 theme을 선택했다. 
 

@@ -33,15 +33,15 @@ description: Web font 적용 및 최적화, Code memo
 
 용량과 호환 브라우저를 고려하여, WOFF2, WOFF, TTF까지 세가지를 대응한다. 
 
-서체 형식 변환시 <a href="https://transfonter.org/" target="blank">Transfonter</a>를 이용했다. <a href="https://transfonter.org/" target="blank">Transfonter</a>는 서체 복수개를 업로드한 뒤 TTF, WOFF2, WOFF, EOT, SVG 중 원하는 형식으로 한번에 컨버트할 수 있고, 하나의 폴더로 다운로드되어 편리하다. 컨버트시 CSS Stylesheet를 함께 제공한다.
+서체 형식 변환시 <a class="post-text" href="https://transfonter.org/" target="blank">Transfonter</a>를 이용했다. <a class="post-text" href="https://transfonter.org/" target="blank">Transfonter</a>는 서체 복수개를 업로드한 뒤 TTF, WOFF2, WOFF, EOT, SVG 중 원하는 형식으로 한번에 컨버트할 수 있고, 하나의 폴더로 다운로드되어 편리하다. 컨버트시 CSS Stylesheet를 함께 제공한다.
 
 ##### Google Fonts
-<a href="https://fonts.google.com/" target="blank">Google Fonts</a>를 이용하면 font file을 별도로 올리지 않아도 유저 접속시 <a href="https://fonts.google.com/" target="blank">Google Fonts</a>에서 서체를 바로 다운로드 받아 적용할 수 있다. Google Fonts에서 제공하는 link 또는 @import와 CSS 코드를 적용하면 된다. font file을 별도로 올리지 않으므로 용량을 차지하지 않는다는 장점이 있다.
+<a class="post-text" href="https://fonts.google.com/" target="blank">Google Fonts</a>를 이용하면 font file을 별도로 올리지 않아도 유저 접속시 <a class="post-text" href="https://fonts.google.com/" target="blank">Google Fonts</a>에서 서체를 바로 다운로드 받아 적용할 수 있다. Google Fonts에서 제공하는 link 또는 @import와 CSS 코드를 적용하면 된다. font file을 별도로 올리지 않으므로 용량을 차지하지 않는다는 장점이 있다.
 
 #### 2. 웹폰트 로딩시 텍스트 처리(CSS font-display)
 font file을 직접 올리든, Google Fonts에서 받아오든 유저의 사이트 접속시 해당 서체가 다운로드되어야 하기 때문에, 서체가 제대로 적용되기까지의 렌더링에는 일정 시간이 소요될 수 밖에 없다. 대부분의 사이트에서 텍스트가 잠깐동안 반짝하는 현상이 일어나는 것도 서체가 적용되기까지 시간차가 있기 때문이다. 서체가 로딩되기 전까지 텍스트를 어떻게 처리할 것인지는 처리 방식에 따라 달라지는데, 아예 보여주지 않는 경우 경우에 따라서 잘못된 정보를 전달할 위험이 있다. 따라서 텍스트 처리 방식을 적절히 적용하여 최적화를 해야한다.
 
-CSS의 <a href="https://developer.mozilla.org/ko/docs/Web/CSS/@font-face/font-display" target="blank">font-display</a>로 웹폰트의 로딩 상태에 따라 텍스트가 어떻게 보일지를 설정할 수 있다. <a href="https://developer.mozilla.org/ko/docs/Web/CSS/@font-face/font-display" target="blank">font-display</a>는 Internet Explorer 계열 브라우저를 제외한 브라우저가 지원한다. font-display에는 auto, block, swap, fallback, optional의 다섯 가지 옵션이 있다.
+CSS의 <a class="post-text" href="https://developer.mozilla.org/ko/docs/Web/CSS/@font-face/font-display" target="blank">font-display</a>로 웹폰트의 로딩 상태에 따라 텍스트가 어떻게 보일지를 설정할 수 있다. <a class="post-text" href="https://developer.mozilla.org/ko/docs/Web/CSS/@font-face/font-display" target="blank">font-display</a>는 Internet Explorer 계열 브라우저를 제외한 브라우저가 지원한다. font-display에는 auto, block, swap, fallback, optional의 다섯 가지 옵션이 있다.
 
 ##### block 
 FOIT(Flash Of Invisible Text: 브라우저 렌더링 차단 방식)와 동일하게 폰트가 로딩되기 전까지 텍스트를 보여주지 않는다(3초까지, 이후에는 폴백 폰트 적용).  

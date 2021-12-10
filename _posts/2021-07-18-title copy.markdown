@@ -10,9 +10,9 @@ img : /img/sass_logo.jpg
 ### 개념 
 CSS : Cascading Style Sheets  
 SCSS : Sassy CSS  
-<a href="https://sass-lang.com/" target="blank">SASS</a> : Syntactically Awesome Style Sheets  
+<a class="post-text" href="https://sass-lang.com/" target="blank">SASS</a> : Syntactically Awesome Style Sheets  
 
-SCSS와 <a href="https://sass-lang.com/" target="blank">SASS</a>는 CSS를 보완하는 확장 스크립트 언어이다. 문법이나 구문이 조금씩 다르다. 유지보수의 편의성 등 CSS의 한계를 보완하기 위해 조건문이나 반복문, variable(변수), mixin, nesting 등 개념이 추가되었다. SASS보다는 SCSS의 사용이 (공식 문법의 기준, CSS와의 호환성, 다수의 사용자 등의 이유로) 권장된다.
+SCSS와 <a class="post-text" href="https://sass-lang.com/" target="blank">SASS</a>는 CSS를 보완하는 확장 스크립트 언어이다. 문법이나 구문이 조금씩 다르다. 유지보수의 편의성 등 CSS의 한계를 보완하기 위해 조건문이나 반복문, variable(변수), mixin, nesting 등 개념이 추가되었다. SASS보다는 SCSS의 사용이 (공식 문법의 기준, CSS와의 호환성, 다수의 사용자 등의 이유로) 권장된다.
 
 <br/>
 <br/>
