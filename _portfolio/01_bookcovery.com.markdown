@@ -125,7 +125,6 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 ##### 미인증회원 업로드 시도시 에러 모달 멘트 변경
 
 제목을 통해 회사인증이 '필요함'을 인지시키고, '신뢰할 수 있는 도서 정보를 나누고 소통할 수 있도록 간단한 회사 정보 인증을 받고 있습니다.' 왜 회사 인증이 필요한지에 대해 유저를 설득하고 충분히 안내할 수 있도록 에러 모달 멘트를 변경했습니다.
-        
 <br><br>
 
 #### 해결 5. 혼란을 줄이도록 UI 개선
@@ -148,7 +147,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 	회사명 및 회사이메일 입력 필드의 상태 변화 및 에러메세지를 디자인했습니다.
 </div>
 
-<br><br>
+<br><br><br><br>
 
 ----
 
@@ -199,20 +198,23 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <div class="col three caption">
 	옵셔널하게 변경된 회사인증 플로우
 </div>
+<br>
+<span class="emoji-callout">✔️</span> <strong>가능한 유저의 유형</strong> <br>
+<strong>유저 유형 1:</strong> 직업명만 선택한 경우 &nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 @프리랜서</span></strong>, 로고 없음 (미인증)<br>
+<strong>유저 유형 2:</strong> 회사명을 입력하고, 인증을 시도하지 않은 경우 (기타 이유로 인증할 수 없습니다)&nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 표시, 로고 디폴트</span></strong>(미인증)<br>
+<strong>유저 유형 3:</strong> 회사명과 회사 이메일 입력했지만, 이메일 확인을 완료하지 않은 경우&nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 표시, 로고 디폴트</span></strong>(미인증)<br>
+<strong>유저 유형 4:</strong> 회사 이메일 인증을 완료한 경우 &nbsp;&#10142; &nbsp; <strong><span class="text-highlight">회사명 표시, 로고 삽입 (인증)</span></strong><br>
+유저 유형 5: 2,3,4에 해당하면서 회사 정보를 비공개한 경우&nbsp;&#10142; &nbsp; 회사명 @비공개, 로고 디폴트 (인증)<br>
+<br>
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.14.jpg" alt="" title="bookcovery.company.14"/>
 </div>
 <div class="col three caption">
-	변경된 플로우에 따라 "직업 선택/회사명 입력"이 한 페이지에 합쳐지고 "회사 이메일 입력"이 구분되어, 기존에 비슷한 회사 정보라 회사명과 이메일 입력 필드을 헷갈려 반대로 입력하는 등의 문제도 자연스럽게 해결되었습니다.
+	변경된 플로우에 따라 "회사명 입력"과 "회사 이메일 입력"이 다른 페이지에 구분되어, 회사명과 이메일 입력 필드를 헷갈려 반대로 입력하는 등의 문제도 자연스럽게 해결되었습니다.
 </div>
-<br>
-<span class="emoji-callout">✔️</span> <strong>가능한 유저의 유형</strong> <br>
-<strong>유저 유형 1:</strong> 직업명만 선택한 경우 &nbsp;&#10142; &nbsp;<strong><span class="text-highlight">프리랜서</span></strong>(미인증)<br>
-<strong>유저 유형 2:</strong> 회사명을 입력하고, 인증을 시도하지 않은 경우 (기타 이유로 인증할 수 없습니다)&nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 표시, 로고 없음</span></strong>(미인증)<br>
-<strong>유저 유형 3:</strong> 회사명과 회사 이메일 입력했지만, 이메일 확인을 완료하지 않은 경우&nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 표시, 로고 없음</span></strong>(미인증)<br>
-<strong>유저 유형 4:</strong> 회사 이메일 인증을 완료한 경우 &nbsp;&#10142; &nbsp; <strong><span class="text-highlight">회사명 표시, 로고 삽입 (인증)</span></strong><br>
-유저 유형 5: 2,3,4에 해당하면서 회사 정보를 비공개한 경우<br>
-<br>
+
+<br><br>
+
 
 #### 해결 2. 전문성, 신뢰성의 브랜드 이미지를 위한 워딩
 <div class="img_row">
@@ -221,9 +223,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <div class="col three caption">
 	네임택 및 프로필의 회사명 표시 규칙
 </div>
-온보딩 모달에서 회사명 입력 필드를 스킵하는 버튼에 '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용했습니다. 또한 회사명을 입력하지 않은 유저 유형1의 네임택과 프로필에도 직업적으로 신뢰할 수 있음을 느낄 수 있도록 '회사명 없음', 또는 공백으로 두기 보다는 '@프리랜서'라는 워딩을 사용했습니다. 
-
-(유저 유형2,3,4의 회사명을 입력한 유저의 경우 모두 네임택과 프로필에 입력한 '@회사명'을 표시했습니다. 회사를 인증한 유저와 그렇지 않은 유저는 회사 로고의 삽입 여부로 구분됩니다. 인증 유무와 상관없이 회사 정보를 비공개 한 유저 유형5의 경우 회사명이 '@비공개'로 표시되며, 회사 로고가 보이지 않습니다.)
+회사명을 입력하지 않은 유저 유형1의 네임택과 프로필에도 직업적으로 신뢰할 수 있음을 느낄 수 있도록 '회사명 없음', 또는 공백으로 두기 보다는 '@프리랜서'라는 단어를 사용했습니다. 또한 온보딩 모달에서도 회사명 입력 필드를 스킵하는 버튼에 '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용합니다.
 
 <br>
 
@@ -261,7 +261,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 
 
 
-<br><br><br>
+<br><br><br><br>
 현재 북커버리 서비스는 <a class="post-text" href="http://bookcovery.com" target="blank">여기</a>에서 확인하실 수 있습니다.
 
 <a class="post-text" href="http://bookcovery.com" target="blank">http://bookcovery.com</a>
