@@ -144,6 +144,9 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.12.jpg" alt="" title="bookcovery.company.12"/>
 </div>
+<div class="col three caption">
+	회사명 및 회사이메일 입력 필드의 상태 변화 및 에러메세지를 디자인했습니다.
+</div>
 
 <br><br>
 
@@ -218,11 +221,11 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <div class="col three caption">
 	혼동을 줄이기 위해 Select Control을 선택 완료해야 텍스트필드가 생성, 텍스트필드를 입력해야 버튼이 생성됩니다.
 </div>
-기존에 두 단계로 나뉘어 있던 직업명 입력 단계와 회사인증 단계를 하나의 화면에 합쳐서, 직업명만 선택하고 인증을 하지 않아도 온보딩이 가능하도록 플로우를 변경됩니다. 직업명을 입력하면, 회사명 필드와 '소속이 없습니다'라는 버튼이 생성됩니다. '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용했고, 회사명을 입력하지 않은 유저의 프로필 및 네임택의 회사명에는 '프리랜서'라는 단어를 사용했습니다.
+기존에 두 단계로 나뉘어 있던 직업명 입력 단계와 회사인증 단계를 하나의 화면에 합쳐서, 직업명만 선택하고 인증을 하지 않아도 온보딩이 가능하도록 플로우를 변경했습니다. 직업명을 입력하면, 회사명 필드와 '소속이 없습니다'라는 버튼이 생성됩니다. '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용했고, 회사명을 입력하지 않은 유저의 프로필 및 네임택의 회사명에는 '프리랜서'라는 단어를 사용했습니다.
 
 <br>
 
-#### 해결 2. 회사 이메일 인증
+#### 해결 2. 비슷한 회사 관련 정보의 페이지 구분
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.14.jpg" alt="" title="bookcovery.company.14"/>
 </div>
