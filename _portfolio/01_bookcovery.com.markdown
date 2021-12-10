@@ -190,8 +190,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 
 ### 해결
 
-#### 회사 인증의 전체적 변경
-
+#### 해결 1. 회사 인증 절차 및 정책의 전체적 변경
 기존에 있었던 직접 인증 방법을 없애고, 회사인증을 '회사 도메인 이메일 인증' 하나로 통합하고, 온보딩을 완료한 경우 회사인증을 하지 않아도, 가입한 모든 유저는 도서를 업로드할 수 있도록 변경했습니다. 이렇게 변경하면 유저의 유형은 크게 다음의 다섯 가지로 구분됩니다. 
 
 <div class="img_row">
@@ -199,6 +198,12 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 </div>
 <div class="col three caption">
 	옵셔널하게 변경된 회사인증 플로우
+</div>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.14.jpg" alt="" title="bookcovery.company.14"/>
+</div>
+<div class="col three caption">
+	변경된 플로우에 따라 "직업 선택/회사명 입력"이 한 페이지에 합쳐지고 "회사 이메일 입력"이 구분되어, 기존에 비슷한 회사 정보라 회사명과 이메일 입력 필드을 헷갈려 반대로 입력하는 등의 문제도 자연스럽게 해결되었습니다.
 </div>
 <br>
 <span class="emoji-callout">✔️</span> <strong>가능한 유저의 유형</strong> <br>
@@ -209,32 +214,31 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 유저 유형 5: 2,3,4에 해당하면서 회사 정보를 비공개한 경우<br>
 <br>
 
-직업명만 입력하고 회사명을 입력하지 않은 유저 유형1은 네임택과 프로필의 회사명에 '프리랜서'로 표시했습니다. 회사명이 없어도 직업적으로 신뢰할 수 있음을 느낄 수 있도록 '회사명 없음', 또는 공백으로 두기 보다는 '@프리랜서'라는 워딩을 사용했습니다. 유저 유형2,3,4의 회사명을 입력한 유저의 경우 모두 네임택과 프로필에 입력한 '@회사명'을 표시했습니다. 회사를 인증한 유저와 그렇지 않은 유저는 회사 로고의 삽입 여부로 구분됩니다.
-인증 유무와 상관없이 회사 정보를 비공개 한 유저 유형5의 경우 회사명이 '@비공개'로 표시되며, 회사 로고가 보이지 않습니다.
+#### 해결 2. 전문성, 신뢰성의 브랜드 이미지를 위한 워딩
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.18.jpg" alt="" title="bookcovery.company.18"/>
+</div>
+<div class="col three caption">
+	네임택 및 프로필의 회사명 표시 규칙
+</div>
+온보딩 모달에서 회사명 입력 필드를 스킵하는 버튼에 '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용했습니다. 또한 회사명을 입력하지 않은 유저 유형1의 네임택과 프로필에도 직업적으로 신뢰할 수 있음을 느낄 수 있도록 '회사명 없음', 또는 공백으로 두기 보다는 '@프리랜서'라는 워딩을 사용했습니다. 
 
-<br><br>
+(유저 유형2,3,4의 회사명을 입력한 유저의 경우 모두 네임택과 프로필에 입력한 '@회사명'을 표시했습니다. 회사를 인증한 유저와 그렇지 않은 유저는 회사 로고의 삽입 여부로 구분됩니다. 인증 유무와 상관없이 회사 정보를 비공개 한 유저 유형5의 경우 회사명이 '@비공개'로 표시되며, 회사 로고가 보이지 않습니다.)
 
-#### 해결 1. 직업 선택과 회사 인증 단계를 결합
+<br>
+
+#### 해결 3. 유저에게 한 번에 하나의 태스크만
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.13.jpg" alt="" title="bookcovery.company.13"/>
 </div>
 <div class="col three caption">
-	혼동을 줄이기 위해 Select Control을 선택 완료해야 텍스트필드가 생성, 텍스트필드를 입력해야 버튼이 생성됩니다.
+	유저의 혼동과 무엇을 해야하는지 고민하는 시간을 줄이기 위해 Select Control을 선택 완료해야 텍스트필드가 생성, 텍스트필드를 입력해야 버튼이 생성됩니다.
 </div>
-기존에 두 단계로 나뉘어 있던 직업명 입력 단계와 회사인증 단계를 하나의 화면에 합쳐서, 직업명만 선택하고 인증을 하지 않아도 온보딩이 가능하도록 플로우를 변경했습니다. 직업명을 입력하면, 회사명 필드와 '소속이 없습니다'라는 버튼이 생성됩니다. '회사 인증을 할 수 없다', '회사가 없다'라는 워딩보다는 전문적이고 신뢰할 수 있는 유저임을 포지셔닝하기 위해 '소속이 없습니다'라는 단어를 사용했고, 회사명을 입력하지 않은 유저의 프로필 및 네임택의 회사명에는 '프리랜서'라는 단어를 사용했습니다.
+회사인증은 간편한 온보딩에 비해 단계가 많고 복잡한 편입니다. 따라서 최대한 유저가 무엇을 입력하고, 무엇을 해야하는지를 고민하지 않고 직관적으로 인증 절차를 마칠 수 있도록 한 화면에서의 선택지를 최대한으로 줄였습니다. 한 페이지 안에서도 모든 단계를 세분화하여, 순차적으로 다음에 입력해야할 필드가 생겨나거나, 다음에 클릭해야 할 버튼이 생기고 활성화되도록 했습니다. 유저에게 한 번에 여러 태스크를 주지 않고, 하나의 태스크만을 단계적으로 주었습니다. 
 
 <br>
 
-#### 해결 2. 비슷한 회사 관련 정보의 페이지 구분
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.14.jpg" alt="" title="bookcovery.company.14"/>
-</div>
-
-기존에는 회사명 입력과 회사이메일 입력 필드가 같은 화면에 있어 반대로 입력하는 등 두 텍스트 필드가 혼동되는 문제가 있었습니다. 직업명 선택(Select Control) 회사명 입력(Text field)을 하는 페이지와, 회사 이메일 입력 페이지를 다른 페이지로 나누어 혼동이 생기는 문제를 해결했습니다. 직업을 선택하고 회사명을 입력하면, 예를 들어 '북커버리의 디자이너이시군요"라는 페이지가 나오고, 그 다음 단계에서 회사 이메일을 입력해 회사인증을 진행합니다. 이 단계에서 이메일 인증을 건너뛰는 경우, '기타 이유로 인증할 수 없습니다' 버튼을 클릭할 수 있으며, 온보딩에서 회사인증을 건너뛰더라도 프로필에서 이메일 인증을 다시 시도할 수 있습니다.
-
-<br>
-
-#### 해결 3. 회사 인증 유도 방식 변경
+#### 해결 4. 회사 인증 유도 방식 변경
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.15.jpg" alt="" title="bookcovery.company.15"/>
 </div>
@@ -246,7 +250,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 
 <br>
 
-#### 해결 4. 업로드 유도 모달 추가
+#### 해결 5. 업로드 유도 모달 추가
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.16.jpg" alt="" title="bookcovery.company.16"/>
 </div>
