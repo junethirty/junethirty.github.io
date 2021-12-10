@@ -7,7 +7,7 @@ previewtext: IT 직장인들을 타겟으로 하는 커리어 네트워크이자
 introduction: IT 직장인들을 타겟으로 하는 커리어 네트워크이자 온라인 공유서재인 북커버리의 브랜딩 작업입니다. Book과 Discovery를 합친 Bookcovery(북커버리)는 네트워킹을 통해 직무적으로 필요한 책을 발견, 탐색할 수 있게 해주는 서비스입니다. CI, Typography, Color system 등 기본이 되는 Brand Guideline을 잡고, 서비스에 다양하게 사용될 일러스트레이션을 제작하였습니다. 아이덴티티 디자인을 진행하였습니다.
 description: CI, Typography, Color system 등 Brand Guideline과 일러스트레이션
 img: /img/bookcovery.brand/bookcovery.brand_cover.jpg
-role: <strong>Role&#58;</strong> 그래픽 디자이너 (Reasearch, Branding, CI, Brand Guidelines, Illustrations, Visual Graphics) <br> <strong>Advisor&#58;</strong> PM&디자이너 1명 <br> <strong>Date&#58;</strong> Feb 2020 ~ Apr 2021 <br> <strong>Tools&#58;</strong> Figma, Illustrator, Photoshop, Cinema4D, Lightroom
+role: <strong>Role&#58;</strong> 그래픽 디자이너 (Reasearch, Branding, CI, Brand Guidelines, Illustrations, Visual Graphics) <br> <strong>Advisor&#58;</strong> PM&디자이너 1명 <br> <strong>Date&#58;</strong> Aug 2020 ~ Apr 2021 <br> <strong>Tools&#58;</strong> Figma, Illustrator, Photoshop, Cinema4D, Lightroom
 ---
 
 서비스의 전체적인 아이덴티티 및 브랜드 디자인을 맡았습니다. 리서치를 통해 브랜드 무드 및 키워드를 정하고, CI, Typography, Color system 등 기본이 되는 Brand Guideline을 제작했으며, 서비스에 필요한 일러스트레이션들을 제작하였습니다. 세상 모든 서재가 모여있는 하나의 큰 서재라는 컨셉을 잡고, 프로덕트 메인 페이지 배너와 홍보물에 주요하게 사용될 핵심 비주얼을 제작하였습니다.
