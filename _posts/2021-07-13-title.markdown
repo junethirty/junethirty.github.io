@@ -87,7 +87,7 @@ $ git remote add origin 나의 repository URL
 4.&#160;연결이 되었다면, 첫번째 commit을 해보자.
 {% highlight html %}
 $ git add *
-$ git commit -m 'First commit'
+$ git commit -m "First commit"
 $ git push -u origin main(또는 master, 이는 자신의 마스터브랜치 이름이다.)
 {% endhighlight %}
 

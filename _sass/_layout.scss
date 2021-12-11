@@ -130,7 +130,7 @@ home layouts
     font-family: $base-font-family;
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0.003em ;
+    letter-spacing: 0.1px ;
     color: $text-color;
     margin-top: 14px;
 }
@@ -179,6 +179,7 @@ color: $theme-color;
 }
 
 .site-nav {
+    letter-spacing: 0.4px;
     div {
         height: 57px;
         margin-top: auto;
