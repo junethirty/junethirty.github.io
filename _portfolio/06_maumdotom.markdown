@@ -26,9 +26,6 @@ img: /img/ver2_maumdotum.png
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/05.jpg" alt="" title="maumdotum05"/>
 </div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/03.jpg" alt="" title="maumdotum03"/>
-</div>
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/06.jpg" alt="" title="maumdotum06"/>
@@ -38,6 +35,9 @@ img: /img/ver2_maumdotum.png
 	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/07.jpg" alt="" title="maumdotum07"/>
 </div>
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/maumdotum2/03.jpg" alt="" title="maumdotum03"/>
+</div>
 
 
 

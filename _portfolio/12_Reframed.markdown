@@ -22,7 +22,7 @@ img: /img/ver2_reframed.png
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/03.jpg" alt="" title="reframed03"/>
 </div>
 
-
+<!--
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/04.jpg" alt="" title="reframed04"/>
@@ -51,16 +51,18 @@ img: /img/ver2_reframed.png
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/08.jpg" alt="" title="reframed08"/>
 </div>
-
+-->
 
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/09.jpg" alt="" title="reframed09"/>
 </div>
 
-
-
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/10.jpg" alt="" title="reframed10"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/reframed/11.jpg" alt="" title="reframed11"/>
 </div>
 

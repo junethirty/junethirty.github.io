@@ -22,7 +22,6 @@ img: /img/ver2_dkd.png
 	<img class="col three" src="{{ site.baseurl }}/img/dkd2/03.jpg" alt="" title="dkd03"/>
 </div>
 
-
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/dkd2/04.jpg" alt="" title="dkd04"/>
 </div>
