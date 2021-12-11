@@ -53,6 +53,9 @@ img: /img/ver2_reframed.png
 </div>
 -->
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/reframed/11.jpg" alt="" title="reframed11"/>
+</div>
 
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/09.jpg" alt="" title="reframed09"/>
@@ -62,7 +65,4 @@ img: /img/ver2_reframed.png
 	<img class="col three" src="{{ site.baseurl }}/img/reframed/10.jpg" alt="" title="reframed10"/>
 </div>
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/reframed/11.jpg" alt="" title="reframed11"/>
-</div>
 
