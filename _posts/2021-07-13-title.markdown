@@ -129,7 +129,7 @@ Index 페이지(사이트 진입시 첫 페이지)를 정의한다.
 ##### _sass	
 SCSS 파일이 모여져 있는 곳이다.  
 ##### _posts	
-포스트 마크다운(컨텐츠)을 관리한다. 파일의 이름은 반드시 <code>YEAR-MONTH-DAY-title.MARKUP</code> 이어야 한다.  
+포스트 마크다운(컨텐츠)을 관리한다.
 ##### _drafts	
 아직 배포하지 않은 draft posts를 담고 있다.
 
