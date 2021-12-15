@@ -31,52 +31,57 @@ img: /img/ver2_bookcovery.png
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/04.jpg" alt="" title="bookcovery04"/>
 </div>
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/14.jpg" alt="" title="bookcovery05"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/05.jpg" alt="" title="bookcovery06"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/13.jpg" alt="" title="bookcovery07"/>
+</div>
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/05.jpg" alt="" title="bookcovery05"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/06.jpg" alt="" title="bookcovery08"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/06.jpg" alt="" title="bookcovery06"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/07.jpg" alt="" title="bookcovery09"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/07.jpg" alt="" title="bookcovery07"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/08.jpg" alt="" title="bookcovery10"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/08.jpg" alt="" title="bookcovery08"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/09.jpg" alt="" title="bookcovery11"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/09.jpg" alt="" title="bookcovery09"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/10.jpg" alt="" title="bookcovery12"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/10.jpg" alt="" title="bookcovery10"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/11.jpg" alt="" title="bookcovery13"/>
 </div>
 
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/11.jpg" alt="" title="bookcovery11"/>
-</div>
-
-
-
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/12.jpg" alt="" title="bookcovery12"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/12.jpg" alt="" title="bookcovery14"/>
 </div>
 
 

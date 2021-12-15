@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /writing/
+permalink: /post/
 title: 
 description: 
 ---
