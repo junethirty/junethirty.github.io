@@ -7,7 +7,7 @@ previewtext: 북커버리의 회사인증 개선 작업입니다. 콘텐츠와 �
 introduction: 직무적으로 필요한 콘텐츠 정보를 제공하는 북커버리는, 콘텐츠의 신뢰성을 위해서 회사인증이라는 제도를 사용했습니다. 유저는 회원가입시 온보딩 과정에서 회사인증을 하게 됩니다. 북커버리 서비스가 다른 서비스와 차별 지점 중 하나는 프로필에 회사 정보와 로고가 보인다는 것입니다. 이는 콘텐츠의 신뢰성을 주며, 다양한 회사의 로고가 보이는 콘텐츠월을 매력적으로 만드는 주요한 요소 중 하나였지만, 그 과정이 불편하고 설득력이 부족하다는 문제가 있었습니다.
 description: 양날의 검 같았던 회사인증 개선 프로젝트
 img: /img/bookcovery.company_cover.jpg
-role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User Flows, Sketching, Visual Design, UX writing) -기여도 80% <br> <strong>Team&#58;</strong> 본인 외 PM&디자이너 1명, 개발자 2명 <br> <strong>Platforms&#58;</strong> Web <br> <strong>Date&#58;</strong> Dec 2020 ~ Mar 2021 <br> <strong>Tools&#58;</strong> Figma
+role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User Flows, Sketching, Visual Design, UX writing) -기여도 70% <br> <strong>Team&#58;</strong> 본인 외 PM&디자이너 1명, 개발자 2명 <br> <strong>Platforms&#58;</strong> Web <br> <strong>Date&#58;</strong> Dec 2020 ~ Mar 2021 <br> <strong>Tools&#58;</strong> Figma
 ---
 
 <br><br>
