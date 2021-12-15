@@ -7,7 +7,7 @@ previewtext: 북커버리는 IT 직장인들을 위한 커리어 네트워크 �
 introduction: 북커버리는 IT 직장인들을 위한 커리어 네트워크 기반 온라인 공유서재입니다. 직무와 관련된 책과 지식을 공유하여, 유저가 필요로 하고 원하는 정보를 수집할 수 있는 지식 공유 플랫폼이자 네트워크입니다. 북커버리는 직무적으로 좋은 책을 찾기 어렵다는 문제의식에서 출발하여, 직업 네트워크와 도서를 결합하는 방식으로 문제를 해결하고자 했습니다. 다른 큐레이션 서비스와 달리 북커버리에서는 커리어와 관련된 관심사 키워드와 네트워킹을 통해 업계의 사람들이 실제 어떤 도서를 소비하고 있는지 탐색할 수 있으며, 업계 사람들이 남긴 유의미한 정보와 인사이트를 발견할 수 있습니다.
 description: 세상에 없던 서비스를 만들어내는 과정
 img: /img/bookcovery.mvp/bookcovery.mvp_cover.jpg
-role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User Flows, Sketching, Wireframing, Visual Design, Notion Page Design, Goods Design) -기여도 50% <br> <strong>Team&#58;</strong> 본인 외 PM&디자이너 1명, 개발자 2명 <br> <strong>Platforms&#58;</strong> Web <br> <strong>Date&#58;</strong> Feb 2020 - Nov 2020 <br> <strong>Tools&#58;</strong> Figma
+role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User Flows, Sketching, Wireframing, Visual Design -기여도 50% / Notion Page Design, Illustrations, Goods Design -기여도 90%) <br> <strong>Team&#58;</strong> 본인 외 PM&디자이너 1명, 개발자 2명 <br> <strong>Platforms&#58;</strong> Web <br> <strong>Date&#58;</strong> Feb 2020 - Nov 2020 <br> <strong>Tools&#58;</strong> Figma
 ---
 
 <br>
