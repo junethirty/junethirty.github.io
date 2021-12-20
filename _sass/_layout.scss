@@ -302,7 +302,7 @@ color: $theme-color;
     }
 }
 .page-content {
-padding: 0 0 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+padding: 0 0 120px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
 font-size: 20px;
@@ -699,18 +699,18 @@ margin-top: -10px;
 }
 
 .button {
-    background-color: $theme-color;
-    color: $white;
+    background-color: $grey-color-20;
+    color: $theme-color;
     letter-spacing: 0.5px;
     text-align: center;
-    padding: 12px 28px;
+    padding: 12px 1px;
     border-radius: 14px;
     width: fit-content;
     display: block;
     margin: auto;
     font-weight: 500;
     font-size: 16px;
-    min-width: 212px;
+    min-width: 230px;
 
     &:hover {
         transition: all 0.2s ease-in-out;
