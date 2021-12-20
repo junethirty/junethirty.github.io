@@ -302,7 +302,7 @@ color: $theme-color;
     }
 }
 .page-content {
-padding: 0 0 180px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+padding: 0 0 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
 font-size: 20px;
@@ -696,4 +696,24 @@ margin-top: -10px;
 .chips {
     line-height: $base-line-height;
     display: inline-block;
+}
+
+.button {
+    background-color: $theme-color;
+    color: $white;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 12px 28px;
+    border-radius: 14px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background-color: $theme-color80;
+        color: $white;
+    }
 }
