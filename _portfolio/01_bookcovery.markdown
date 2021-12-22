@@ -13,6 +13,9 @@ img: /img/ver2_bookcovery.png
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/01.jpg" alt="" title="bookcovery01"/>
 </div>
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery/00.jpg" alt="" title="bookcovery01-1"/>
+</div>
 
 
 <div class="img_row">

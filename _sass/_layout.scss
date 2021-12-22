@@ -699,12 +699,12 @@ margin-top: -10px;
 }
 
 .button {
-    background-color: $grey-color-20;
+    border: 1px solid $grey-color-20;
     color: $theme-color;
     letter-spacing: 0.5px;
     text-align: center;
     padding: 12px 1px;
-    border-radius: 14px;
+    border-radius: 100px;
     width: fit-content;
     display: block;
     margin: auto;
@@ -713,8 +713,9 @@ margin-top: -10px;
     min-width: 230px;
 
     &:hover {
-        transition: all 0.2s ease-in-out;
-        background-color: $theme-color80;
+        transition: all 0.4s ease-in-out;
+        background-color: $theme-color;
         color: $white;
+        border: 1px solid $background-color;
     }
 }

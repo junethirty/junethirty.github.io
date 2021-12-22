@@ -20,10 +20,13 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 회사 인증은 콘텐츠의 질과 신뢰도, 유저 사이의 신뢰성 등 브랜드 이미지를 구축하는 중요한 요소였습니다. 또한 UI적으로도 도서를 유저의 네임택에 회사로고가 들어가는데, 유저의 프로필에 로고를 등록하기 위해서 회사 인증 절차는 필수적이었습니다. 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.01.jpg" alt="" title="bookcovery.company.01"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.01.jpg" alt="" title="bookcovery.company.01-1"/>
 </div>
 <div class="col three caption">
 	MVP의 회사 인증 유저 플로우
+</div>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.19.jpg" alt="" title="bookcovery.company.01-2"/>
 </div>
 
 <br>
@@ -191,12 +194,16 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 
 #### 해결 1. 회사 인증 절차 및 정책의 전체적 변경
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.17.jpg" alt="" title="bookcovery.company.17"/>
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.17.jpg" alt="" title="bookcovery.company.17-1"/>
 </div>
 <div class="col three caption">
 	옵셔널하게 변경된 회사인증 플로우
 </div>
-기존에 있었던 직접 인증 방법을 없애고 회사 인증의 방법(루트)을 '회사 도메인 이메일 인증' 하나로 통합했으며, 온보딩을 완료한 경우 회사인증을 하지 않아도 가입한 모든 유저가 도서를 업로드할 수 있도록 변경했습니다. 이렇게 변경하면 유저의 유형은 크게 다음의 다섯 가지로 구분됩니다. 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.20.jpg" alt="" title="bookcovery.company.17-2"/>
+</div>
+<br>
+기존에 있었던 직접 인증 방법을 없애고 회사 인증의 방법(루트)을 '회사 도메인 이메일 인증' 하나로 통합했으며, 온보딩을 완료한 경우 회사인증을 하지 않아도 가입한 모든 유저가 도서를 업로드할 수 있도록 변경했습니다. 이렇게 변경하면 유저의 유형은 크게 다음의 다섯 가지로 구분됩니다. 변경된 플로우에 따라 "회사명 입력"과 "회사 이메일 입력"이 다른 페이지에 구분되어, 회사명과 이메일 입력 필드를 헷갈려 반대로 입력하는 등의 문제도 자연스럽게 해결되었습니다.
 
 <br>
 <span class="emoji-callout">✔️</span> <strong>가능한 유저의 유형</strong> <br>
@@ -205,13 +212,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 <strong>유저 유형 3:</strong> 회사명과 회사 이메일 입력했지만, 이메일 확인을 완료하지 않은 경우&nbsp;&#10142; &nbsp;<strong><span class="text-highlight">회사명 표시, 로고 디폴트</span></strong>(미인증)<br>
 <strong>유저 유형 4:</strong> 회사 이메일 인증을 완료한 경우 &nbsp;&#10142; &nbsp; <strong><span class="text-highlight">회사명 표시, 로고 삽입 (인증)</span></strong><br>
 유저 유형 5: 2,3,4에 해당하면서 회사 정보를 비공개한 경우&nbsp;&#10142; &nbsp; 회사명 @비공개, 로고 디폴트 (인증)<br>
-<br>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.14.jpg" alt="" title="bookcovery.company.14"/>
-</div>
-<div class="col three caption">
-	변경된 플로우에 따라 "회사명 입력"과 "회사 이메일 입력"이 다른 페이지에 구분되어, 회사명과 이메일 입력 필드를 헷갈려 반대로 입력하는 등의 문제도 자연스럽게 해결되었습니다.
-</div>
+
 
 <br><br>
 
@@ -232,7 +233,7 @@ role: <strong>Role&#58;</strong> 프로덕트 디자이너 (User Reasearch, User
 	<img class="col three" src="{{ site.baseurl }}/img/bookcovery.company/bookcovery.company.13.jpg" alt="" title="bookcovery.company.13"/>
 </div>
 <div class="col three caption">
-	유저의 혼동과 무엇을 해야하는지 고민하는 시간을 줄이기 위해 Select Control을 선택 완료해야 텍스트필드가 생성, 텍스트필드를 입력해야 버튼이 생성됩니다.
+	유저의 혼동과 무엇을 해야하는지 고민하는 시간을 줄이기 위해 Select Control을 선택 완료해야 텍스트필드가 생성, 텍스트필드를 입력해야 버튼이 활성화됩니다.
 </div>
 회사인증은 간편한 온보딩에 비해 단계가 많고 복잡한 편입니다. 따라서 최대한 유저가 무엇을 입력하고, 무엇을 해야하는지를 고민하지 않고 직관적으로 인증 절차를 마칠 수 있도록 한 화면에서의 선택지를 최대한으로 줄였습니다. 한 페이지 안에서도 모든 단계를 세분화하여, 순차적으로 다음에 입력해야할 필드, 다음에 클릭해야 할 버튼이 생기고 활성화되도록 했습니다. 유저에게 한 번에 여러 태스크를 주지 않고, 하나의 태스크만을 단계적으로 주었습니다. 
 
